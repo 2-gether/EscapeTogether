@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour {
 
-	[SerializeField] Vector3 offset;
-	[SerializeField] Transform player;
-	public Transform Player => player;
+    [SerializeField] Vector3 offset;
+    [SerializeField] Transform player;
+    public Transform Player {
+        get => player;
+        set => player = value;
+    }
 
-	void FixedUpdate() {
-		transform.position = player.position + offset;
-	}
+    void FixedUpdate() {
+        if (player != null)
+            transform.position = player.position + offset;
+    }
 }

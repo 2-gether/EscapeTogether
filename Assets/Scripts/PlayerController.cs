@@ -1,9 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Mirror;
 
 [RequireComponent(typeof(Rigidbody))]
-public class PlayerController : MonoBehaviour {
+public class PlayerController : NetworkBehaviour {
 
 	new Rigidbody rigidbody;
 	GameObject interactable;
@@ -12,6 +13,14 @@ public class PlayerController : MonoBehaviour {
 
 	void Start() {
 		rigidbody = GetComponent<Rigidbody>();
+	}
+
+	public override void OnStartLocalPlayer() {
+		base.OnStartLocalPlayer();
+		if (hasAuthority) {
+			Camera cam = Camera.main;
+			cam.GetComponent<CameraController>().Player = this.transform;
+		}
 	}
 
 	void FixedUpdate() {
