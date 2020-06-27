@@ -12,8 +12,11 @@ public class ButtonInteractable : Interactable {
 		if(!isUsed || isMultiUsage) {
 			if(!isMultiUsage)
 				isUsed = true;
-			foreach(Actionable a in targets)
+			foreach(Actionable a in targets) {
+
 				a.Action();
+				Debug.Log(a.GetType());
+			}
 		}
 	}
 
