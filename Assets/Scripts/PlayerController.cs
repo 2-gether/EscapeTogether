@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour {
 		Vector3 movement = Vector3.zero;
 		movement += Vector3.right * input.HorizontalDisplacement * speed;
 		movement += Vector3.forward * input.VerticalDisplacement * speed;
+		movement += new Vector3(0, rigidbody.velocity.y, 0);
 		rigidbody.velocity = movement;
 
 		//Look

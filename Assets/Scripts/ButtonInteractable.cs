@@ -6,7 +6,6 @@ public class ButtonInteractable : Interactable {
 
 	[SerializeField] bool isMultiUsage = false;
 	bool isUsed = false;
-	[SerializeField] List<Actionable> targets;
 
 	public override void Action() {
 		if(!isUsed || isMultiUsage) {
