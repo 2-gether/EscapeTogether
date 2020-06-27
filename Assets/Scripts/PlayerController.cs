@@ -44,10 +44,10 @@ public class PlayerController : MonoBehaviour {
 					&& hitObject.GetComponent<Interactable>().Radius >= Vector3.Distance(hit.point, transform.position)) {
 					//Hover object
 					interactable = hitObject;
-					Debug.Log("Hover " + interactable);
+					interactable.GetComponent<Interactable>().SetHover(true);
 				} else if(interactable != null) {
 					//Reset hover
-					Debug.Log("Reset " + interactable);
+					interactable.GetComponent<Interactable>().SetHover(false);
 					interactable = null;
 				}
 			}
