@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Mirror;
 
+[RequireComponent(typeof(NetworkIdentity))]
 public abstract class Interactable : MonoBehaviour {
 	[SerializeField] float radius = 3f;
 
