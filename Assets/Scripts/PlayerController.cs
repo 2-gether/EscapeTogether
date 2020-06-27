@@ -3,62 +3,62 @@ using System.Collections.Generic;
 using UnityEngine;
 using Mirror;
 
-[RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(Rigidbody), typeof(InputController))]
 public class PlayerController : NetworkBehaviour {
 
+	[SerializeField] float speed;
 	new Rigidbody rigidbody;
 	GameObject interactable;
-	[SerializeField] float speed;
+	InputController input;
 
 	void Start() {
 		rigidbody = GetComponent<Rigidbody>();
+		input = GetComponent<InputController>();
 	}
 
 	public override void OnStartLocalPlayer() {
 		base.OnStartLocalPlayer();
-		if (hasAuthority) {
+		if(hasAuthority) {
 			Camera cam = Camera.main;
-			cam.GetComponent<CameraController>().Player = this.transform;
+			cam.GetComponent<CameraController>().Player = transform;
 		}
 	}
 
 	void FixedUpdate() {
 		//Movement
 		Vector3 movement = Vector3.zero;
-		movement += Vector3.right * Input.GetAxis("Horizontal") * speed;
-		movement += Vector3.forward * Input.GetAxis("Vertical") * speed;
+		movement += Vector3.right * input.HorizontalDisplacement * speed;
+		movement += Vector3.forward * input.VerticalDisplacement * speed;
 		rigidbody.velocity = movement;
 
 		//Look
-		Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-		RaycastHit hit;
-
-		if(Physics.Raycast(ray, out hit)) {
-			Vector3 normalizedHit = new Vector3(hit.point.x, transform.position.y, hit.point.z);
+		if(input.isCursorOnScreen) {
+			Vector3 normalizedHit = new Vector3(input.CursorHit.point.x, transform.position.y, input.CursorHit.point.z);
 			transform.LookAt(normalizedHit);
 		}
-
 	}
 
-	private void Update() {
-		Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-		RaycastHit hit;
+	void Update() {
+		if(input.isCursorOnScreen) {
+			GameObject hitObject = input.CursorHit.collider.gameObject;
 
-		if(Physics.Raycast(ray, out hit)) {
-			GameObject hitObject = hit.collider.gameObject;
-
-			if(interactable != hitObject) {
-				if(hit.collider.tag == "Interactable"
-					&& hitObject.GetComponent<Interactable>().Radius >= Vector3.Distance(hit.point, transform.position)) {
-					//Hover object
-					interactable = hitObject;
-					interactable.GetComponent<Interactable>().SetHover(true);
-				} else if(interactable != null) {
-					//Reset hover
-					interactable.GetComponent<Interactable>().SetHover(false);
-					interactable = null;
-				}
+			Interactable hitObjectInteractable = hitObject.GetComponent<Interactable>();
+			if(input.CursorHit.collider.tag == "Interactable"
+				&& hitObjectInteractable.Radius >= Vector3.Distance(input.CursorHit.point, transform.position)
+				&& hitObjectInteractable.CanBeUsed()) {
+				//Hover object
+				interactable = hitObject;
+				hitObjectInteractable.SetHover(true);
+			} else if(interactable != null) {
+				//Reset hover
+				interactable.GetComponent<Interactable>().SetHover(false);
+				interactable = null;
 			}
+		}
+
+		//TODO Network
+		if(interactable != null && input.Click) {
+			interactable.GetComponent<Interactable>().Action();
 		}
 	}
 }

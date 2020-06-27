@@ -2,19 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Interactable : MonoBehaviour {
+public abstract class Interactable : MonoBehaviour {
 	[SerializeField] float radius = 3f;
 
 	[SerializeField] GameObject hover;
 
-	public float Radius { get => radius; }
+	public float Radius => radius;
 
 	public void SetHover(bool isHover) {
 		if(hover != null)
 			hover.SetActive(isHover);
 	}
 
-	public virtual void Action() { }
+	public abstract void Action();
+	public abstract bool CanBeUsed();
 
 	void OnDrawGizmos() {
 		Gizmos.color = Color.yellow;
