@@ -1,10 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Mirror;
 
 [RequireComponent(typeof(Rigidbody), typeof(InputController))]
-public class PlayerController : NetworkBehaviour {
+public class PlayerController : MonoBehaviour {
 
 	[SerializeField] float speed;
 	new Rigidbody rigidbody;
@@ -15,8 +14,6 @@ public class PlayerController : NetworkBehaviour {
 		rigidbody = GetComponent<Rigidbody>();
 		input = GetComponent<InputController>();
 	}
-
-
 
 	void FixedUpdate() {
 		//Movement
@@ -50,9 +47,8 @@ public class PlayerController : NetworkBehaviour {
 			}
 		}
 
-		//TODO Network
 		if(interactable != null && input.Click) {
-			GetComponent<PlayerNetwork>().CmdAction(interactable.GetComponent<NetworkIdentity>());
+			GetComponent<PlayerNetwork>().Action(interactable);
 		}
 	}
 }
