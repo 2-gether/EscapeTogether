@@ -16,13 +16,7 @@ public class PlayerController : NetworkBehaviour {
 		input = GetComponent<InputController>();
 	}
 
-	public override void OnStartLocalPlayer() {
-		base.OnStartLocalPlayer();
-		if(hasAuthority) {
-			Camera cam = Camera.main;
-			cam.GetComponent<CameraController>().Player = transform;
-		}
-	}
+
 
 	void FixedUpdate() {
 		//Movement
@@ -58,7 +52,7 @@ public class PlayerController : NetworkBehaviour {
 
 		//TODO Network
 		if(interactable != null && input.Click) {
-			interactable.GetComponent<Interactable>().Action();
+			GetComponent<PlayerNetwork>().CmdAction(interactable.GetComponent<NetworkIdentity>());
 		}
 	}
 }
