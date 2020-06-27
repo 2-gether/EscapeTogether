@@ -358,7 +358,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3826866246021695093}
   - component: {fileID: 976027931776430108}
-  - component: {fileID: 408256972}
+  - component: {fileID: 4635268203041231379}
   m_Layer: 0
   m_Name: Button
   m_TagString: Interactable
@@ -396,7 +396,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.4, y: 0.3, z: 0.4}
   m_Center: {x: 0, y: 0.15, z: 0}
---- !u!114 &408256972
+--- !u!114 &4635268203041231379
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -405,8 +405,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7642562449484270406}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51a94e0908095b64197ead27f7a083ec, type: 3}
+  m_Script: {fileID: 11500000, guid: a31b64970e864f640aad28d238126a5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 2
   hover: {fileID: 2381549137277735144}
+  isMultiUsage: 0
+  targets: []
