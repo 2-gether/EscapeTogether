@@ -16,13 +16,17 @@ public class PlayerNetwork : NetworkBehaviour {
                 b.enabled = false;
         }
     }
+
+    public void Action(GameObject go) {
+        CmdAction(go.GetComponent<NetworkIdentity>());
+    }
     [Command]
-    public void CmdAction(NetworkIdentity id) {
+    private void CmdAction(NetworkIdentity id) {
         RpcAction(id);
     }
 
     [ClientRpc]
-    public void RpcAction(NetworkIdentity id) {
+    private void RpcAction(NetworkIdentity id) {
         id.GetComponent<Interactable>().Action();
     }
 }
