@@ -8,7 +8,6 @@ public class PlayerController : MonoBehaviour {
 	new Rigidbody rigidbody;
 	GameObject interactable;
 	[SerializeField] float speed;
-	public float Speed => speed;
 
 	void Start() {
 		rigidbody = GetComponent<Rigidbody>();
