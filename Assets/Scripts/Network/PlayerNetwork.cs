@@ -18,15 +18,15 @@ public class PlayerNetwork : NetworkBehaviour {
     }
 
     public void Action(GameObject go) {
-        CmdAction(go.GetComponent<NetworkIdentity>());
+        CmdAction(go.GetComponent<NetworkIdentity>(),GetComponent<NetworkIdentity>());
     }
     [Command]
-    private void CmdAction(NetworkIdentity id) {
-        RpcAction(id);
+    private void CmdAction(NetworkIdentity id,NetworkIdentity player) {
+        RpcAction(id,player);
     }
 
     [ClientRpc]
-    private void RpcAction(NetworkIdentity id) {
-        id.GetComponent<Interactable>().Action();
+    private void RpcAction(NetworkIdentity id, NetworkIdentity player) {
+        id.GetComponent<Interactable>().Action(player);
     }
 }

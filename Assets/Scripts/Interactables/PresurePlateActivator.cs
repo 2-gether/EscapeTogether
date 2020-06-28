@@ -7,17 +7,17 @@ using Mirror;
 public class PresurePlateActivator : Activator {
     void OnTriggerEnter(Collider other) {
         if (other.tag == "Player" || other.tag == "Box") {
-            Activate();
+            Activate(other.GetComponent<NetworkIdentity>());
         }
     }
 
     void OnTriggerExit(Collider other) {
         if (other.tag == "Player" || other.tag == "Box") {
-            Activate();
+            Activate(other.GetComponent<NetworkIdentity>());
         }
     }
 
-    public override void Action() {
+    public override void Action(NetworkIdentity player) {
         foreach (Actionable a in targets)
             if (a.CanBeActioned())
                 a.Action();
@@ -29,12 +29,12 @@ public class PresurePlateActivator : Activator {
 
 
     [Server]
-    void Activate() {
-        RpcActivate();
+    void Activate(NetworkIdentity id) {
+        RpcActivate(id);
     }
 
     [ClientRpc]
-    void RpcActivate() {
-        Action();
+    void RpcActivate(NetworkIdentity id) {
+        Action(id);
     }
 }

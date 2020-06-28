@@ -9,7 +9,7 @@ public class ButtonActivator : Activator {
 	[SerializeField] bool isMultiUsage = false;
 	bool isUsed = false;
 
-	public override void Action() {
+	public override void Action(NetworkIdentity player) {
 		if(!isUsed || isMultiUsage) {
 			if(!isMultiUsage)
 				isUsed = true;

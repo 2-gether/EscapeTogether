@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour {
 	[SerializeField] float speed;
 	new Rigidbody rigidbody;
 	InputController input;
+	[SerializeField] Transform boxHolder;
+	public Transform BoxHolder => boxHolder;
 
 	void Start() {
 		rigidbody = GetComponent<Rigidbody>();
@@ -28,4 +30,5 @@ public class PlayerController : MonoBehaviour {
 			transform.LookAt(normalizedHit);
 		}
 	}
+
 }

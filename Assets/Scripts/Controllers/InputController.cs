@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class InputController : MonoBehaviour {
 
+
+	#region PlayerScripts
+		PlayerNetwork pn;
+		PlayerController pc;
+	#endregion
+
 	GameObject interactable;
 	bool holdClickFire1 = false;
 	bool holdClickFire2 = false;
@@ -19,6 +25,11 @@ public class InputController : MonoBehaviour {
 	public bool isCursorOnScreen { get; private set; }
 	public bool LeftClick { get; private set; } = false;
 	public bool RightClick { get; private set; } = false;
+
+	void Start() {
+		pc = GetComponent<PlayerController>();
+		pn = GetComponent<PlayerNetwork>();
+	}
 
 	void Update() {
 		HorizontalDisplacement = Input.GetAxis(horizontalMovement);
@@ -72,9 +83,12 @@ public class InputController : MonoBehaviour {
 				interactable = null;
 			}
 		}
-
-		if(interactable != null && LeftClick) {
-			GetComponent<PlayerNetwork>().Action(interactable);
+		
+		if (interactable != null && LeftClick) {
+			pn.Action(interactable);
+		}
+		if (RightClick && pc.BoxHolder.transform.childCount == 1) {
+			pn.Action(pc.BoxHolder.transform.GetChild(0).gameObject);
 		}
 	}
 	private void OnDrawGizmos() {

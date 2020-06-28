@@ -372,7 +372,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   horizontalMovement: Horizontal
   verticalMovement: Vertical
-  click: Fire1
+  leftClick: Fire1
+  rightClick: Fire2
 --- !u!114 &1301882856991067969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -386,6 +387,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 7
+  boxHolder: {fileID: 29099732}
 --- !u!114 &630368611386409304
 MonoBehaviour:
   m_ObjectHideFlags: 0

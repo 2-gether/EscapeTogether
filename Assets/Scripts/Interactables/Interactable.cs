@@ -7,6 +7,7 @@ using Mirror;
 public abstract class Interactable : NetworkBehaviour {
 	[SerializeField] float radius = 3f;
 	[SerializeField] GameObject hover;
+	
 
 	public float Radius => radius;
 
@@ -15,7 +16,7 @@ public abstract class Interactable : NetworkBehaviour {
 			hover.SetActive(isHover);
 	}
 
-	public abstract void Action();
+	public abstract void Action(NetworkIdentity player);
 	public abstract bool CanBeUsed();
 
 	void OnDrawGizmosSelected() {
