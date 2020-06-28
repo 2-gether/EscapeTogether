@@ -28,6 +28,7 @@ public class BoxInteractable : Interactable {
             transform.SetParent(null);
             // get the position forward the player.
             transform.position = id.transform.position + id.transform.forward * 1f + Vector3.up;
+            transform.localScale = Vector3.one;
             transform.GetComponent<BoxCollider>().enabled = true;
             Rigidbody boxRb = transform.GetComponent<Rigidbody>();
             boxRb.isKinematic = false;
