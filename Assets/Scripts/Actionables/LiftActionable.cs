@@ -27,10 +27,10 @@ public class LiftActionable : Actionable {
 				Vector3 from, to;
 				from = steps[gap - 1].position;
 				to = steps[gap].position;
-				float pas = Vector3.Distance(from, to) / speed / delay;
+				float step = Vector3.Distance(from, to) / speed / delay;
 
-				for(int i = 1; i <= pas; i++) {
-					lift.position = Vector3.Lerp(from, to, i / pas);
+				for(int i = 1; i <= step; i++) {
+					lift.position = Vector3.Lerp(from, to, i / step);
 					yield return new WaitForSeconds(delay);
 				}
 			}
@@ -40,10 +40,10 @@ public class LiftActionable : Actionable {
 				Vector3 from, to;
 				from = steps[gap].position;
 				to = steps[gap - 1].position;
-				float pas = Vector3.Distance(from, to) / speed / delay;
+				float step = Vector3.Distance(from, to) / speed / delay;
 
-				for(int i = 1; i <= pas; i++) {
-					lift.position = Vector3.Lerp(from, to, i / pas);
+				for(int i = 1; i <= step; i++) {
+					lift.position = Vector3.Lerp(from, to, i / step);
 					yield return new WaitForSeconds(delay);
 				}
 			}

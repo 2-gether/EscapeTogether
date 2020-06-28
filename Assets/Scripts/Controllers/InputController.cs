@@ -6,8 +6,8 @@ public class InputController : MonoBehaviour {
 
 
 	#region PlayerScripts
-		PlayerNetwork pn;
-		PlayerController pc;
+	PlayerNetwork pn;
+	PlayerController pc;
 	#endregion
 
 	GameObject interactable;
@@ -18,6 +18,8 @@ public class InputController : MonoBehaviour {
 	public string verticalMovement = "Vertical";
 	public string leftClick = "Fire1";
 	public string rightClick = "Fire2";
+	public Transform eyesPos;
+	[SerializeField] float rangeDrop = 2f;
 
 	public float HorizontalDisplacement { get; private set; }
 	public float VerticalDisplacement { get; private set; }
@@ -72,8 +74,9 @@ public class InputController : MonoBehaviour {
 			if(CursorHit.collider.gameObject.layer == LayerMask.NameToLayer("Interactable")
 				&& hitObjectInteractable.Radius >= Vector3.Distance(CursorHit.point, transform.position)
 				&& hitObjectInteractable.CanBeUsed()
-				&& Physics.Raycast(transform.position, hitObject.transform.position - transform.position, out RaycastHit infoCheck, float.PositiveInfinity, LayerMask.GetMask("Environment", "Interactable"))
-				&& infoCheck.collider.gameObject == hitObject) {
+				&& Physics.Raycast(eyesPos.position, hitObject.transform.position - eyesPos.position, out RaycastHit infoCheck, float.PositiveInfinity, LayerMask.GetMask("Environment", "Interactable"))
+				&& infoCheck.collider.gameObject == hitObject
+				&& pc.BoxHolder.transform.childCount == 0) {
 				//Hover object
 				interactable = hitObject;
 				hitObjectInteractable.SetHover(true);
@@ -83,17 +86,21 @@ public class InputController : MonoBehaviour {
 				interactable = null;
 			}
 		}
-		
-		if (interactable != null && LeftClick) {
+
+		if(interactable != null && LeftClick) {
 			pn.Action(interactable);
 		}
-		if (RightClick && pc.BoxHolder.transform.childCount == 1) {
+		if(RightClick
+			&& pc.BoxHolder.transform.childCount == 1
+			&& !Physics.Raycast(eyesPos.position, CursorHit.point - eyesPos.position, out RaycastHit checkDrop, rangeDrop, LayerMask.GetMask("Environment"))) {
 			pn.Action(pc.BoxHolder.transform.GetChild(0).gameObject);
 		}
 	}
 	private void OnDrawGizmos() {
 		Gizmos.color = Color.magenta;
 		if(interactable != null)
-			Gizmos.DrawLine(transform.position, interactable.transform.position);
+			Gizmos.DrawLine(eyesPos.position, interactable.transform.position);
+		Gizmos.color = Color.red;
+		Gizmos.DrawLine(eyesPos.position, eyesPos.position + (CursorHit.point - eyesPos.position).normalized * rangeDrop);
 	}
 }
