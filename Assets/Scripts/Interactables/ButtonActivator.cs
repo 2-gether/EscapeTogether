@@ -4,7 +4,7 @@ using UnityEngine;
 using Mirror;
 
 [RequireComponent(typeof(NetworkIdentity))]
-public class ButtonInteractable : Interactable {
+public class ButtonActivator : Activator {
 
 	[SerializeField] bool isMultiUsage = false;
 	bool isUsed = false;

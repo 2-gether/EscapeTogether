@@ -4,7 +4,7 @@ using UnityEngine;
 using Mirror;
 
 [RequireComponent(typeof(NetworkIdentity))]
-public class PresurePlateInteractable : Interactable {
+public class PresurePlateActivator : Activator {
 	void OnTriggerEnter(Collider other) {
 		if(other.tag == "Player" || other.tag == "Box") {
 			other.GetComponent<PlayerNetwork>().Action(gameObject);

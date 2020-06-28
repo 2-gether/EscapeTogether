@@ -6,7 +6,7 @@ public class LiftActionable : Actionable {
 	[SerializeField] Transform lift;
 	[SerializeField] List<Transform> steps;
 	[SerializeField] float delay = 0.02f;
-	float speed = 1f;
+	[SerializeField] float speed = 1f;
 	bool isGoingUp = false;
 	bool isActive = false;
 
