@@ -6,20 +6,14 @@ using Mirror;
 [RequireComponent(typeof(NetworkIdentity))]
 public class PresurePlateActivator : Activator {
     void OnTriggerEnter(Collider other) {
-        if (other.tag == "Player") {
-            other.GetComponent<PlayerNetwork>().Action(gameObject);
-        }
-        else if (other.tag == "Box") {
-            other.GetComponent<BoxInteractable>().Action();
+        if (other.tag == "Player" || other.tag == "Box") {
+            Activate();
         }
     }
 
     void OnTriggerExit(Collider other) {
-        if (other.tag == "Player") {
-            other.GetComponent<PlayerNetwork>().Action(gameObject);
-        }
-        else if (other.tag == "Box") {
-            other.GetComponent<BoxInteractable>().Action();
+        if (other.tag == "Player" || other.tag == "Box") {
+            Activate();
         }
     }
 
@@ -31,5 +25,16 @@ public class PresurePlateActivator : Activator {
 
     public override bool CanBeUsed() {
         return false;
+    }
+
+
+    [Server]
+    void Activate() {
+        RpcActivate();
+    }
+
+    [ClientRpc]
+    void RpcActivate() {
+        Action();
     }
 }
