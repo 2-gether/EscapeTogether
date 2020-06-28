@@ -4,7 +4,7 @@ using UnityEngine;
 using Mirror;
 
 [RequireComponent(typeof(NetworkIdentity))]
-public abstract class Interactable : MonoBehaviour {
+public abstract class Interactable : NetworkBehaviour {
 	[SerializeField] float radius = 3f;
 	[SerializeField] GameObject hover;
 

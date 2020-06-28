@@ -21,7 +21,7 @@ public class ButtonActivator : Activator {
 	public override bool CanBeUsed() {
 		bool targetsReady = true;
 		foreach(Actionable a in targets)
-			targetsReady = targetsReady && a.CanBeActioned();
+			targetsReady &= a.CanBeActioned();
 		return !isUsed && targetsReady;
 	}
 }
