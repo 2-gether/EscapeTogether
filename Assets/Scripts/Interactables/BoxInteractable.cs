@@ -11,14 +11,18 @@ public class BoxInteractable : Interactable {
     }
 
     [Server]
-    private void ActionOnServer(NetworkIdentity id) {
+    void ActionOnServer(NetworkIdentity id) {
+        RpcActionClients(id);
+    }
 
+    [ClientRpc]
+    void RpcActionClients(NetworkIdentity id) {
         if (transform.parent == null) {
             transform.SetParent(id.GetComponent<PlayerController>().BoxHolder);
-            transform.GetComponent<Rigidbody>().isKinematic = true;
             transform.localPosition = new Vector3(0, 0, 0);
-            transform.GetComponent<BoxCollider>().enabled = false;
             transform.localRotation = Quaternion.identity;
+            transform.GetComponent<Rigidbody>().isKinematic = true;
+            transform.GetComponent<BoxCollider>().enabled = false;
         }
         else {
             transform.SetParent(null);
