@@ -4,4 +4,5 @@ using UnityEngine;
 
 public abstract class Actionable : MonoBehaviour {
 	public abstract void Action();
+	public abstract bool CanBeActioned();
 }

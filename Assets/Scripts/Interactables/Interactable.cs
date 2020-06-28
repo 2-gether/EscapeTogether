@@ -6,10 +6,8 @@ using Mirror;
 [RequireComponent(typeof(NetworkIdentity))]
 public abstract class Interactable : MonoBehaviour {
 	[SerializeField] float radius = 3f;
-
 	[SerializeField] GameObject hover;
 	[SerializeField] protected List<Actionable> targets;
-
 
 	public float Radius => radius;
 

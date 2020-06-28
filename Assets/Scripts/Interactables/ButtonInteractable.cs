@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Mirror;
 
+[RequireComponent(typeof(NetworkIdentity))]
 public class ButtonInteractable : Interactable {
 
 	[SerializeField] bool isMultiUsage = false;
@@ -17,6 +19,9 @@ public class ButtonInteractable : Interactable {
 	}
 
 	public override bool CanBeUsed() {
-		return !isUsed;
+		bool targetsReady = true;
+		foreach(Actionable a in targets)
+			targetsReady = targetsReady && a.CanBeActioned();
+		return !isUsed && targetsReady;
 	}
 }

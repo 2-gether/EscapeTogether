@@ -1,24 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Mirror;
 
+[RequireComponent(typeof(NetworkIdentity))]
 public class PresurePlateInteractable : Interactable {
-	private void OnTriggerEnter(Collider other) {
-		Debug.Log(other.tag);
-		if(other.tag == "Player") {
+	void OnTriggerEnter(Collider other) {
+		if(other.tag == "Player" || other.tag == "Box") {
 			other.GetComponent<PlayerNetwork>().Action(gameObject);
 		}
 	}
 
-	private void OnTriggerExit(Collider other) {
-		if(other.tag == "Player") {
+	void OnTriggerExit(Collider other) {
+		if(other.tag == "Player" || other.tag == "Box") {
 			other.GetComponent<PlayerNetwork>().Action(gameObject);
 		}
 	}
 
 	public override void Action() {
 		foreach(Actionable a in targets)
-			a.Action();
+			if(a.CanBeActioned())
+				a.Action();
 	}
 
 	public override bool CanBeUsed() {

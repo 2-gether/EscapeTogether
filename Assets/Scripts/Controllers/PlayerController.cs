@@ -7,7 +7,6 @@ public class PlayerController : MonoBehaviour {
 
 	[SerializeField] float speed;
 	new Rigidbody rigidbody;
-	GameObject interactable;
 	InputController input;
 
 	void Start() {
@@ -27,29 +26,6 @@ public class PlayerController : MonoBehaviour {
 		if(input.isCursorOnScreen) {
 			Vector3 normalizedHit = new Vector3(input.CursorHit.point.x, transform.position.y, input.CursorHit.point.z);
 			transform.LookAt(normalizedHit);
-		}
-	}
-
-	void Update() {
-		if(input.isCursorOnScreen) {
-			GameObject hitObject = input.CursorHit.collider.gameObject;
-
-			Interactable hitObjectInteractable = hitObject.GetComponent<Interactable>();
-			if(input.CursorHit.collider.tag == "Interactable"
-				&& hitObjectInteractable.Radius >= Vector3.Distance(input.CursorHit.point, transform.position)
-				&& hitObjectInteractable.CanBeUsed()) {
-				//Hover object
-				interactable = hitObject;
-				hitObjectInteractable.SetHover(true);
-			} else if(interactable != null) {
-				//Reset hover
-				interactable.GetComponent<Interactable>().SetHover(false);
-				interactable = null;
-			}
-		}
-
-		if(interactable != null && input.Click) {
-			GetComponent<PlayerNetwork>().Action(interactable);
 		}
 	}
 }

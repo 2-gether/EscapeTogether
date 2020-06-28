@@ -359,9 +359,9 @@ GameObject:
   - component: {fileID: 3826866246021695093}
   - component: {fileID: 976027931776430108}
   - component: {fileID: 4635268203041231379}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Button
-  m_TagString: Interactable
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -410,5 +410,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 2
   hover: {fileID: 2381549137277735144}
-  isMultiUsage: 0
   targets: []
+  isMultiUsage: 0
