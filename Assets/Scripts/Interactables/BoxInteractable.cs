@@ -18,7 +18,7 @@ public class BoxInteractable : Interactable {
     [ClientRpc]
     void RpcActionClients(NetworkIdentity id) {
         if (transform.parent == null) {
-            transform.SetParent(id.GetComponent<PlayerController>().BoxHolder);
+            transform.SetParent(id.GetComponent<PlayerController>().BoxHolder, false);
             transform.localPosition = new Vector3(0, 0, 0);
             transform.localRotation = Quaternion.identity;
             transform.GetComponent<Rigidbody>().isKinematic = true;
