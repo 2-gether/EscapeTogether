@@ -4,12 +4,10 @@ using UnityEngine;
 
 public class Door1Actionable : Actionable {
 	[SerializeField] GameObject door;
-	bool isOpen = false;
 
 	public override void Action() {
-		isOpen = !isOpen;
 		if(door != null)
-			door.SetActive(!isOpen);
+			door.SetActive(!door.activeSelf);
 	}
 
 	public override bool CanBeActioned() {
