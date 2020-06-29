@@ -70,20 +70,24 @@ public class InputController : MonoBehaviour {
 		if(isCursorOnScreen) {
 			GameObject hitObject = CursorHit.collider.gameObject;
 
-			Interactable hitObjectInteractable = hitObject.GetComponent<Interactable>();
-			if(CursorHit.collider.gameObject.layer == LayerMask.NameToLayer("Interactable")
-				&& hitObjectInteractable.Radius >= Vector3.Distance(CursorHit.point, transform.position)
-				&& hitObjectInteractable.CanBeUsed()
-				&& Physics.Raycast(eyesPos.position, hitObject.transform.position - eyesPos.position, out RaycastHit infoCheck, float.PositiveInfinity, LayerMask.GetMask("Environment", "Interactable"))
-				&& infoCheck.collider.gameObject == hitObject
-				&& pc.BoxHolder.transform.childCount == 0) {
-				//Hover object
-				interactable = hitObject;
-				hitObjectInteractable.SetHover(true);
-			} else if(interactable != null) {
-				//Reset hover
-				interactable.GetComponent<Interactable>().SetHover(false);
-				interactable = null;
+			if(interactable != hitObject) {
+				Interactable hitObjectInteractable = hitObject.GetComponent<Interactable>();
+				if(CursorHit.collider.gameObject.layer == LayerMask.NameToLayer("Interactable")
+					&& hitObjectInteractable.Radius >= Vector3.Distance(CursorHit.point, transform.position)
+					&& hitObjectInteractable.CanBeUsed()
+					&& Physics.Raycast(eyesPos.position, hitObject.transform.position - eyesPos.position, out RaycastHit infoCheck, float.PositiveInfinity, LayerMask.GetMask("Environment", "Interactable"))
+					&& infoCheck.collider.gameObject == hitObject
+					&& pc.BoxHolder.transform.childCount == 0) {
+					//Hover object
+					if(interactable != null)
+						interactable.GetComponent<Interactable>().SetHover(false);
+					interactable = hitObject;
+					hitObjectInteractable.SetHover(true);
+				} else if(interactable != null) {
+					//Reset hover
+					interactable.GetComponent<Interactable>().SetHover(false);
+					interactable = null;
+				}
 			}
 		}
 
