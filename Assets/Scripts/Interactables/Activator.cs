@@ -8,6 +8,7 @@ public abstract class Activator : Interactable {
 	void OnDrawGizmosSelected() {
 		Gizmos.color = Color.red;
 		foreach(Actionable a in targets)
-			Gizmos.DrawLine(a.gameObject.transform.position, transform.position);
+			if(a != null)
+				Gizmos.DrawLine(a.gameObject.transform.position, transform.position);
 	}
 }
