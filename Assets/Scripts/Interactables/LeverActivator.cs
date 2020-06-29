@@ -20,16 +20,19 @@ public class LeverActivator : Activator {
 				a.Action();
 		}
 
+		bool canBeUsed = CanBeUsed();
 		if(isUp) {
 			stick.transform.localEulerAngles = new Vector3(0, 35f, 0);
 			hover = hollowUp;
 			hollowDown.SetActive(false);
-			hollowUp.SetActive(true);
+			/*if(canBeUsed)
+				hollowUp.SetActive(true);*/
 		} else {
 			stick.transform.localEulerAngles = new Vector3(0, -35f, 0);
 			hover = hollowDown;
-			hollowDown.SetActive(true);
 			hollowUp.SetActive(false);
+			/*if(canBeUsed)
+				hollowDown.SetActive(true);*/
 		}
 	}
 

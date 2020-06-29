@@ -21,13 +21,7 @@ public class PlayerNetwork : NetworkBehaviour {
 	void DisableBehaviours() {
 		foreach(Behaviour b in toDisable)
 			b.enabled = false;
-	}
-
-	public override void OnStartClient() {
-		/*if(!hasAuthority) {
-			foreach(Behaviour b in toDisable)
-				b.enabled = false;
-		}*/
+		GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
 	}
 
 	public void Action(GameObject go) {

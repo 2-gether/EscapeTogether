@@ -59,7 +59,7 @@ public class InputController : MonoBehaviour {
 		Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 		RaycastHit hit;
 
-		if(Physics.Raycast(ray, out hit, float.PositiveInfinity, LayerMask.GetMask("Ground", "Interactable"))) {
+		if(Physics.Raycast(ray, out hit, float.PositiveInfinity, LayerMask.GetMask("Ground", "Environment", "Interactable"))) {
 			CursorHit = hit;
 			isCursorOnScreen = true;
 		} else {
@@ -69,15 +69,21 @@ public class InputController : MonoBehaviour {
 		//Hover
 		if(isCursorOnScreen) {
 			GameObject hitObject = CursorHit.collider.gameObject;
+			Interactable hitObjectInteractable = hitObject.GetComponent<Interactable>();
 
 			if(interactable != hitObject) {
-				Interactable hitObjectInteractable = hitObject.GetComponent<Interactable>();
-				if(CursorHit.collider.gameObject.layer == LayerMask.NameToLayer("Interactable")
-					&& hitObjectInteractable.Radius >= Vector3.Distance(CursorHit.point, transform.position)
-					&& hitObjectInteractable.CanBeUsed()
-					&& Physics.Raycast(eyesPos.position, hitObject.transform.position - eyesPos.position, out RaycastHit infoCheck, float.PositiveInfinity, LayerMask.GetMask("Environment", "Interactable"))
+				//Check not holding box
+				if(pc.BoxHolder.transform.childCount == 0
+					//not wrong layer
+					&& hitObject.layer == LayerMask.NameToLayer("Interactable")
+					//cast the double check
+					&& Physics.Raycast(eyesPos.position, hitObject.transform.position - eyesPos.position, out RaycastHit infoCheck, float.PositiveInfinity, LayerMask.GetMask("Ground", "Environment", "Interactable"))
+					//double check
 					&& infoCheck.collider.gameObject == hitObject
-					&& pc.BoxHolder.transform.childCount == 0) {
+					//object can be used
+					&& hitObjectInteractable.CanBeUsed()
+					//in the range
+					&& hitObjectInteractable.Radius >= Vector3.Distance(CursorHit.point, transform.position)) {
 					//Hover object
 					if(interactable != null)
 						interactable.GetComponent<Interactable>().SetHover(false);
@@ -88,6 +94,11 @@ public class InputController : MonoBehaviour {
 					interactable.GetComponent<Interactable>().SetHover(false);
 					interactable = null;
 				}
+			} else {
+				if(!hitObjectInteractable.CanBeUsed())
+					hitObjectInteractable.SetHover(false);
+				else
+					hitObjectInteractable.SetHover(true);
 			}
 		}
 
