@@ -31,6 +31,8 @@ public class PresurePlateActivator : Activator {
     [Server]
     void Activate(NetworkIdentity id) {
         RpcActivate(id);
+        if(!isClient)
+            Action(id);
     }
 
     [ClientRpc]

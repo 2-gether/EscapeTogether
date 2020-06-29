@@ -15,6 +15,17 @@ public class BoxInteractable : Interactable {
 	[Server]
 	void ActionOnServer(NetworkIdentity id) {
 		RpcActionClients(id);
+		if(!isClient) {
+			IEnumerator coroutine;
+			if(transform.parent == null) {
+				coroutine = Animation(id, true);
+			} else {
+				coroutine = Animation(id, false);
+			}
+			if(isCoroutineRuning)
+				StopCoroutine("Animation");
+			StartCoroutine(coroutine);
+		}
 	}
 
 	[ClientRpc]
