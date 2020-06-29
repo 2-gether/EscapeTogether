@@ -6,7 +6,7 @@ using Mirror;
 [RequireComponent(typeof(NetworkIdentity))]
 public abstract class Interactable : NetworkBehaviour {
 	[SerializeField] float radius = 3f;
-	[SerializeField] GameObject hover;
+	[SerializeField] protected GameObject hover;
 	
 
 	public float Radius => radius;
