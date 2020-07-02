@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5674944821368084006
+--- !u!1 &4549786512039535637
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,46 +8,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5010998490682494108}
-  - component: {fileID: 8225119961046647609}
-  - component: {fileID: 6179370037740697587}
-  - component: {fileID: 5674944821368084005}
-  m_Layer: 9
-  m_Name: PavementQuart
+  - component: {fileID: 3778456412582756015}
+  - component: {fileID: 270248429496938762}
+  - component: {fileID: 2604464638424073664}
+  - component: {fileID: 1096426497136505903}
+  m_Layer: 11
+  m_Name: 2MWallStraightTransiShort
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5010998490682494108
+--- !u!4 &3778456412582756015
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5674944821368084006}
+  m_GameObject: {fileID: 4549786512039535637}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1, y: 0, z: -2.5}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1529780141645965367}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!33 &8225119961046647609
+--- !u!33 &270248429496938762
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5674944821368084006}
-  m_Mesh: {fileID: -4175424176038986209, guid: 2260e50fe1860d344a8a2aef0a104b1d, type: 3}
---- !u!23 &6179370037740697587
+  m_GameObject: {fileID: 4549786512039535637}
+  m_Mesh: {fileID: 6693492903165461260, guid: 368d86bc9b1dd10439a7ee89c206c96a, type: 3}
+--- !u!23 &2604464638424073664
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5674944821368084006}
+  m_GameObject: {fileID: 4549786512039535637}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -59,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 51b8777c816f5f547b08289ab37f50f2, type: 2}
+  - {fileID: 2100000, guid: c6e120ffc849a1f4fbe92fce6d426191, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -80,17 +80,48 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5674944821368084005
+--- !u!64 &1096426497136505903
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5674944821368084006}
+  m_GameObject: {fileID: 4549786512039535637}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: -4175424176038986209, guid: 2260e50fe1860d344a8a2aef0a104b1d, type: 3}
+  m_Mesh: {fileID: 6693492903165461260, guid: 368d86bc9b1dd10439a7ee89c206c96a, type: 3}
+--- !u!1 &9058749988535162866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1529780141645965367}
+  m_Layer: 11
+  m_Name: 2MWall1MStraightTransiShortClose
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1529780141645965367
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9058749988535162866}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3778456412582756015}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
