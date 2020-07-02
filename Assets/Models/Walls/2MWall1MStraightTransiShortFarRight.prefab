@@ -104,7 +104,7 @@ GameObject:
   m_Component:
   - component: {fileID: 993385294455888521}
   m_Layer: 11
-  m_Name: 2MWall1MStraightTransiShortFar
+  m_Name: 2MWall1MStraightTransiShortFarRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
