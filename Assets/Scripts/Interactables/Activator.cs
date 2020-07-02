@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Activator : Interactable {
+public abstract class Activator : NetworkInteractable {
 	[SerializeField] protected List<Actionable> targets;
 
 	void OnDrawGizmosSelected() {

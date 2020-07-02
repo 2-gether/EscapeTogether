@@ -5,7 +5,7 @@ using Mirror;
 
 [RequireComponent(typeof(NetworkIdentity))]
 [RequireComponent(typeof(NetworkTransform))]
-public class BoxInteractable : Interactable {
+public class BoxInteractable : NetworkInteractable {
 	bool isCoroutineRuning = false;
 
 	public override void Action(NetworkIdentity player) {

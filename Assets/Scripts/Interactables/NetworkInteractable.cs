@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Mirror;
 
-public abstract class Interactable : MonoBehaviour {
+[RequireComponent(typeof(NetworkIdentity))]
+public abstract class NetworkInteractable : NetworkBehaviour {
 	[SerializeField] float radius = 3f;
 	[SerializeField] protected GameObject hover;
-
+	
 	public float Radius => radius;
 
 	public void SetHover(bool isHover) {
@@ -13,7 +15,7 @@ public abstract class Interactable : MonoBehaviour {
 			hover.SetActive(isHover);
 	}
 
-	public abstract void Action();
+	public abstract void Action(NetworkIdentity player);
 	public abstract bool CanBeUsed();
 
 	void OnDrawGizmosSelected() {

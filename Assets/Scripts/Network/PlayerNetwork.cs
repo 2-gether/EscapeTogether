@@ -32,11 +32,11 @@ public class PlayerNetwork : NetworkBehaviour {
 	private void CmdAction(NetworkIdentity id, NetworkIdentity player) {
 		RpcAction(id, player);
 		if(!isClient)
-			id.GetComponent<Interactable>().Action(player);
+			id.GetComponent<NetworkInteractable>().Action(player);
 	}
 
 	[ClientRpc]
 	private void RpcAction(NetworkIdentity id, NetworkIdentity player) {
-		id.GetComponent<Interactable>().Action(player);
+		id.GetComponent<NetworkInteractable>().Action(player);
 	}
 }

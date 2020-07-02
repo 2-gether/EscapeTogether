@@ -69,7 +69,7 @@ public class InputController : MonoBehaviour {
 		//Hover
 		if(isCursorOnScreen) {
 			GameObject hitObject = CursorHit.collider.gameObject;
-			Interactable hitObjectInteractable = hitObject.GetComponent<Interactable>();
+			NetworkInteractable hitObjectInteractable = hitObject.GetComponent<NetworkInteractable>();
 
 			if(interactable != hitObject) {
 				//Check not holding box
@@ -86,12 +86,12 @@ public class InputController : MonoBehaviour {
 					&& hitObjectInteractable.Radius >= Vector3.Distance(CursorHit.point, transform.position)) {
 					//Hover object
 					if(interactable != null)
-						interactable.GetComponent<Interactable>().SetHover(false);
+						interactable.GetComponent<NetworkInteractable>().SetHover(false);
 					interactable = hitObject;
 					hitObjectInteractable.SetHover(true);
 				} else if(interactable != null) {
 					//Reset hover
-					interactable.GetComponent<Interactable>().SetHover(false);
+					interactable.GetComponent<NetworkInteractable>().SetHover(false);
 					interactable = null;
 				}
 			} else {
