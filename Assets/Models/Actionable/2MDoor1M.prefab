@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 46580470220298277}
   - component: {fileID: 2121846239309458266}
   - component: {fileID: 273352342023578572}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Moovable1m
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104,7 +104,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5439164968649382064}
   - component: {fileID: 5439164968649382067}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 2MDoor1M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -151,7 +151,7 @@ GameObject:
   - component: {fileID: 6331500113971564002}
   - component: {fileID: 8087047141627672872}
   - component: {fileID: 7726500166817126652}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 2MDoor1M
   m_TagString: Untagged
   m_Icon: {fileID: 0}

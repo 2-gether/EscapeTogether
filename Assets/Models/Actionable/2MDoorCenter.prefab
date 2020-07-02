@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 635603644394380119}
   - component: {fileID: 321435531115896022}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 2MDoorCenter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 2688969306299620451}
   - component: {fileID: 612307870130502601}
   - component: {fileID: 2644616028437810119}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: MoovableCenter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -151,7 +151,7 @@ GameObject:
   - component: {fileID: 8128221743154256990}
   - component: {fileID: 6280773075537504404}
   - component: {fileID: 5487976607554439488}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 2MDoorCenter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
