@@ -143,13 +143,28 @@ PrefabInstance:
     - target: {fileID: 4280834883084718458, guid: 29c464693ae818544bc8e29171f93679,
         type: 3}
       propertyPath: baseFolders.Array.size
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4280834883084718458, guid: 29c464693ae818544bc8e29171f93679,
         type: 3}
       propertyPath: baseFolders.Array.data[0]
       value: 
       objectReference: {fileID: 1120235876}
+    - target: {fileID: 4280834883084718458, guid: 29c464693ae818544bc8e29171f93679,
+        type: 3}
+      propertyPath: baseFolders.Array.data[1]
+      value: 
+      objectReference: {fileID: 1769708641}
+    - target: {fileID: 4280834883084718458, guid: 29c464693ae818544bc8e29171f93679,
+        type: 3}
+      propertyPath: baseFolders.Array.data[2]
+      value: 
+      objectReference: {fileID: 1769077433}
+    - target: {fileID: 4280834883084718458, guid: 29c464693ae818544bc8e29171f93679,
+        type: 3}
+      propertyPath: baseFolders.Array.data[3]
+      value: 
+      objectReference: {fileID: 340334107}
     - target: {fileID: 8656127311711999030, guid: 29c464693ae818544bc8e29171f93679,
         type: 3}
       propertyPath: m_Text
@@ -1252,13 +1267,28 @@ PrefabInstance:
     - target: {fileID: 4280834883084718458, guid: 29c464693ae818544bc8e29171f93679,
         type: 3}
       propertyPath: baseFolders.Array.size
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4280834883084718458, guid: 29c464693ae818544bc8e29171f93679,
         type: 3}
       propertyPath: baseFolders.Array.data[0]
       value: 
       objectReference: {fileID: 1120235876}
+    - target: {fileID: 4280834883084718458, guid: 29c464693ae818544bc8e29171f93679,
+        type: 3}
+      propertyPath: baseFolders.Array.data[1]
+      value: 
+      objectReference: {fileID: 1769077433}
+    - target: {fileID: 4280834883084718458, guid: 29c464693ae818544bc8e29171f93679,
+        type: 3}
+      propertyPath: baseFolders.Array.data[2]
+      value: 
+      objectReference: {fileID: 340334107}
+    - target: {fileID: 4280834883084718458, guid: 29c464693ae818544bc8e29171f93679,
+        type: 3}
+      propertyPath: baseFolders.Array.data[3]
+      value: 
+      objectReference: {fileID: 1842873164}
     - target: {fileID: 8656127312147464200, guid: 29c464693ae818544bc8e29171f93679,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2117,13 +2147,33 @@ PrefabInstance:
     - target: {fileID: 4280834883084718458, guid: 29c464693ae818544bc8e29171f93679,
         type: 3}
       propertyPath: baseFolders.Array.size
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4280834883084718458, guid: 29c464693ae818544bc8e29171f93679,
         type: 3}
       propertyPath: baseFolders.Array.data[0]
       value: 
       objectReference: {fileID: 1769708641}
+    - target: {fileID: 4280834883084718458, guid: 29c464693ae818544bc8e29171f93679,
+        type: 3}
+      propertyPath: baseFolders.Array.data[1]
+      value: 
+      objectReference: {fileID: 1769077433}
+    - target: {fileID: 4280834883084718458, guid: 29c464693ae818544bc8e29171f93679,
+        type: 3}
+      propertyPath: baseFolders.Array.data[2]
+      value: 
+      objectReference: {fileID: 340334107}
+    - target: {fileID: 4280834883084718458, guid: 29c464693ae818544bc8e29171f93679,
+        type: 3}
+      propertyPath: baseFolders.Array.data[3]
+      value: 
+      objectReference: {fileID: 1842873164}
+    - target: {fileID: 4280834883084718458, guid: 29c464693ae818544bc8e29171f93679,
+        type: 3}
+      propertyPath: baseFolders.Array.data[4]
+      value: 
+      objectReference: {fileID: 1842873164}
     - target: {fileID: 8656127311711999030, guid: 29c464693ae818544bc8e29171f93679,
         type: 3}
       propertyPath: m_Text
@@ -2455,13 +2505,28 @@ PrefabInstance:
     - target: {fileID: 4280834883084718458, guid: 29c464693ae818544bc8e29171f93679,
         type: 3}
       propertyPath: baseFolders.Array.size
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4280834883084718458, guid: 29c464693ae818544bc8e29171f93679,
         type: 3}
       propertyPath: baseFolders.Array.data[0]
       value: 
       objectReference: {fileID: 1120235876}
+    - target: {fileID: 4280834883084718458, guid: 29c464693ae818544bc8e29171f93679,
+        type: 3}
+      propertyPath: baseFolders.Array.data[1]
+      value: 
+      objectReference: {fileID: 1769708641}
+    - target: {fileID: 4280834883084718458, guid: 29c464693ae818544bc8e29171f93679,
+        type: 3}
+      propertyPath: baseFolders.Array.data[2]
+      value: 
+      objectReference: {fileID: 1769077433}
+    - target: {fileID: 4280834883084718458, guid: 29c464693ae818544bc8e29171f93679,
+        type: 3}
+      propertyPath: baseFolders.Array.data[3]
+      value: 
+      objectReference: {fileID: 1842873164}
     - target: {fileID: 8656127311711999030, guid: 29c464693ae818544bc8e29171f93679,
         type: 3}
       propertyPath: m_Text
@@ -3700,13 +3765,28 @@ PrefabInstance:
     - target: {fileID: 4280834883084718458, guid: 29c464693ae818544bc8e29171f93679,
         type: 3}
       propertyPath: baseFolders.Array.size
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4280834883084718458, guid: 29c464693ae818544bc8e29171f93679,
         type: 3}
       propertyPath: baseFolders.Array.data[0]
       value: 
       objectReference: {fileID: 1120235876}
+    - target: {fileID: 4280834883084718458, guid: 29c464693ae818544bc8e29171f93679,
+        type: 3}
+      propertyPath: baseFolders.Array.data[1]
+      value: 
+      objectReference: {fileID: 1769708641}
+    - target: {fileID: 4280834883084718458, guid: 29c464693ae818544bc8e29171f93679,
+        type: 3}
+      propertyPath: baseFolders.Array.data[2]
+      value: 
+      objectReference: {fileID: 340334107}
+    - target: {fileID: 4280834883084718458, guid: 29c464693ae818544bc8e29171f93679,
+        type: 3}
+      propertyPath: baseFolders.Array.data[3]
+      value: 
+      objectReference: {fileID: 1842873164}
     - target: {fileID: 8656127311711999030, guid: 29c464693ae818544bc8e29171f93679,
         type: 3}
       propertyPath: m_Text
