@@ -55,7 +55,7 @@ public class EditorManager : MonoBehaviour {
         SetCurrentTile();
 
         if (Input.GetKeyDown(EditorInputManger.Instance().RotatePreview)) {
-            Preview.transform.Rotate(0, ROTATION_ANGLE, 0);
+            Preview.transform.Rotate(0, ROTATION_ANGLE, 0, Space.World);
         }
         if (Input.GetKeyDown(EditorInputManger.Instance().NextPrefab)) {
             previewIndex++;
