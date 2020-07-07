@@ -101,7 +101,9 @@ public class EditorManager : MonoBehaviour {
     }
 
     public GameObject InstantiatePrefab() {
-        return Instantiate(Preview);
+        GameObject go = Instantiate(Preview,transform);
+        go.name = go.name.Replace("(Clone)", "");
+        return go;
     }
     public void DestroyPrefab() {
         Destroy(Preview);
