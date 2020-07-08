@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour {
 	[SerializeField] float animationSpeed = 5f;
@@ -15,6 +16,10 @@ public class MenuController : MonoBehaviour {
 		Transform to = menus[index].transform.Find("CameraWaypoint");
 		StartCoroutine(AnimationTransferMenu(from, to));
 		currentIndex = index;
+	}
+
+	public void ChangeScene(string sceneName) {
+		SceneManager.LoadScene(sceneName);
 	}
 
 	IEnumerator AnimationTransferMenu(Transform from, Transform to) {
