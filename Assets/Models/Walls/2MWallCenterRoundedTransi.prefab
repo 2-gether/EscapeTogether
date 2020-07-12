@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3478154816794655457}
   - component: {fileID: 1702382826861301291}
   - component: {fileID: 5482944218873507561}
+  - component: {fileID: -5959579079525442465}
   m_Layer: 11
   m_Name: 2MWallCenterRoundedTransi
   m_TagString: Untagged
@@ -94,3 +95,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6591895868409948620, guid: a3ac4b8839c31d44c9f48149f14131f8, type: 3}
+--- !u!114 &-5959579079525442465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909982595362893822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 0
+  serverOnly: 0
+  m_AssetId: 
+  hasSpawned: 0

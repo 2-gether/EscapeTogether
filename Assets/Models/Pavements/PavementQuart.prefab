@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8225119961046647609}
   - component: {fileID: 6179370037740697587}
   - component: {fileID: 5674944821368084005}
+  - component: {fileID: 6469022244670208759}
   m_Layer: 9
   m_Name: PavementQuart
   m_TagString: Untagged
@@ -94,3 +95,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4175424176038986209, guid: 2260e50fe1860d344a8a2aef0a104b1d, type: 3}
+--- !u!114 &6469022244670208759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5674944821368084006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 0
+  serverOnly: 0
+  m_AssetId: 
+  hasSpawned: 0
