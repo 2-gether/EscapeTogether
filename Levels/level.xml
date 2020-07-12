@@ -311,5 +311,35 @@
     <prefab x="45" y="0" z="45" rx="-0" ry="0" rz="0">
       <name>PaveRoad</name>
     </prefab>
+    <prefab x="10" y="0" z="15" rx="-0" ry="0" rz="0">
+      <name>PavementFull</name>
+    </prefab>
+    <prefab x="10" y="0" z="20" rx="-0" ry="0" rz="0">
+      <name>PavementFull</name>
+    </prefab>
+    <prefab x="10" y="0" z="25" rx="-0" ry="0" rz="0">
+      <name>PavementFull</name>
+    </prefab>
+    <prefab x="15" y="0" z="25" rx="-0" ry="0" rz="0">
+      <name>PavementFull</name>
+    </prefab>
+    <prefab x="20" y="0" z="25" rx="-0" ry="0" rz="0">
+      <name>PavementFull</name>
+    </prefab>
+    <prefab x="25" y="0" z="25" rx="-0" ry="0" rz="0">
+      <name>PavementFull</name>
+    </prefab>
+    <prefab x="25" y="0" z="20" rx="-0" ry="0" rz="0">
+      <name>PavementFull</name>
+    </prefab>
+    <prefab x="25" y="0" z="15" rx="-0" ry="0" rz="0">
+      <name>PavementFull</name>
+    </prefab>
+    <prefab x="20" y="0" z="15" rx="-0" ry="0" rz="0">
+      <name>PavementFull</name>
+    </prefab>
+    <prefab x="15" y="0" z="15" rx="-0" ry="0" rz="0">
+      <name>PavementFull</name>
+    </prefab>
   </prefabs>
 </Level>
