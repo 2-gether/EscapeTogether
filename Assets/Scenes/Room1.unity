@@ -184,12 +184,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2725325121303688744, guid: e045d2932add8034ba87e24f081c240f,
+        type: 3}
+      propertyPath: sceneId
+      value: 1369542740
+      objectReference: {fileID: 0}
     - target: {fileID: 5541795257902809546, guid: e045d2932add8034ba87e24f081c240f,
         type: 3}
       propertyPath: m_Name
       value: 2MDoor (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2725325121303688744, guid: e045d2932add8034ba87e24f081c240f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e045d2932add8034ba87e24f081c240f, type: 3}
 --- !u!4 &5233051 stripped
 Transform:
@@ -216,6 +222,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 3324749060
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -276,7 +287,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &9618147 stripped
 Transform:
@@ -334,6 +346,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1598417277}
     m_Modifications:
+    - target: {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d,
+        type: 3}
+      propertyPath: sceneId
+      value: 983366215
+      objectReference: {fileID: 0}
     - target: {fileID: 1331033643468163819, guid: 576629821d816bd418febd6dc1e35c1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -394,7 +411,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaveRoad (15)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
 --- !u!4 &31178087 stripped
 Transform:
@@ -464,12 +482,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2725325121303688744, guid: e045d2932add8034ba87e24f081c240f,
+        type: 3}
+      propertyPath: sceneId
+      value: 3581813459
+      objectReference: {fileID: 0}
     - target: {fileID: 5541795257902809546, guid: e045d2932add8034ba87e24f081c240f,
         type: 3}
       propertyPath: m_Name
       value: 2MDoor (5)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2725325121303688744, guid: e045d2932add8034ba87e24f081c240f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e045d2932add8034ba87e24f081c240f, type: 3}
 --- !u!114 &43870928 stripped
 MonoBehaviour:
@@ -496,6 +520,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1419737603}
     m_Modifications:
+    - target: {fileID: -6339208387448377801, guid: 028155b0d51e4d54c92a4c3d4496d9d7,
+        type: 3}
+      propertyPath: sceneId
+      value: 2359211732
+      objectReference: {fileID: 0}
     - target: {fileID: 4627563434079176161, guid: 028155b0d51e4d54c92a4c3d4496d9d7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -556,7 +585,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementC (6)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6339208387448377801, guid: 028155b0d51e4d54c92a4c3d4496d9d7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 028155b0d51e4d54c92a4c3d4496d9d7, type: 3}
 --- !u!4 &81842677 stripped
 Transform:
@@ -571,6 +601,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1419737603}
     m_Modifications:
+    - target: {fileID: -6339208387448377801, guid: 028155b0d51e4d54c92a4c3d4496d9d7,
+        type: 3}
+      propertyPath: sceneId
+      value: 1825300863
+      objectReference: {fileID: 0}
     - target: {fileID: 4627563434079176161, guid: 028155b0d51e4d54c92a4c3d4496d9d7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -631,7 +666,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementC (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6339208387448377801, guid: 028155b0d51e4d54c92a4c3d4496d9d7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 028155b0d51e4d54c92a4c3d4496d9d7, type: 3}
 --- !u!4 &87659997 stripped
 Transform:
@@ -646,6 +682,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 2567210820
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -706,7 +747,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &103086802 stripped
 Transform:
@@ -721,6 +763,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 4159323899
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -781,7 +828,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &105386293 stripped
 Transform:
@@ -796,6 +844,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1598417277}
     m_Modifications:
+    - target: {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d,
+        type: 3}
+      propertyPath: sceneId
+      value: 3655368456
+      objectReference: {fileID: 0}
     - target: {fileID: 1331033643468163819, guid: 576629821d816bd418febd6dc1e35c1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -856,7 +909,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaveRoad (4)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
 --- !u!4 &105958737 stripped
 Transform:
@@ -871,6 +925,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1598417277}
     m_Modifications:
+    - target: {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d,
+        type: 3}
+      propertyPath: sceneId
+      value: 2155149625
+      objectReference: {fileID: 0}
     - target: {fileID: 1331033643468163819, guid: 576629821d816bd418febd6dc1e35c1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -931,7 +990,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaveRoad (14)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
 --- !u!4 &112881261 stripped
 Transform:
@@ -946,6 +1006,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1598417277}
     m_Modifications:
+    - target: {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d,
+        type: 3}
+      propertyPath: sceneId
+      value: 366977369
+      objectReference: {fileID: 0}
     - target: {fileID: 1331033643468163819, guid: 576629821d816bd418febd6dc1e35c1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1006,7 +1071,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaveRoad (18)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
 --- !u!4 &160498701 stripped
 Transform:
@@ -1069,6 +1135,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 305331495
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -1129,7 +1200,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &181679606 stripped
 Transform:
@@ -1144,6 +1216,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1419737603}
     m_Modifications:
+    - target: {fileID: -6398497241174905229, guid: da28396d5c0124246a351d4fcf1657c8,
+        type: 3}
+      propertyPath: sceneId
+      value: 3822358655
+      objectReference: {fileID: 0}
     - target: {fileID: 366976418200873103, guid: da28396d5c0124246a351d4fcf1657c8,
         type: 3}
       propertyPath: m_Name
@@ -1204,7 +1281,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6398497241174905229, guid: da28396d5c0124246a351d4fcf1657c8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: da28396d5c0124246a351d4fcf1657c8, type: 3}
 --- !u!4 &190776395 stripped
 Transform:
@@ -1219,6 +1297,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1419737603}
     m_Modifications:
+    - target: {fileID: -6398497241174905229, guid: da28396d5c0124246a351d4fcf1657c8,
+        type: 3}
+      propertyPath: sceneId
+      value: 3508987478
+      objectReference: {fileID: 0}
     - target: {fileID: 366976418200873103, guid: da28396d5c0124246a351d4fcf1657c8,
         type: 3}
       propertyPath: m_Name
@@ -1279,7 +1362,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6398497241174905229, guid: da28396d5c0124246a351d4fcf1657c8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: da28396d5c0124246a351d4fcf1657c8, type: 3}
 --- !u!4 &193422870 stripped
 Transform:
@@ -1294,6 +1378,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1598417277}
     m_Modifications:
+    - target: {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d,
+        type: 3}
+      propertyPath: sceneId
+      value: 4181426743
+      objectReference: {fileID: 0}
     - target: {fileID: 1331033643468163819, guid: 576629821d816bd418febd6dc1e35c1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1354,7 +1443,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaveRoad (9)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
 --- !u!4 &202441863 stripped
 Transform:
@@ -1369,6 +1459,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 3594021869
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -1429,7 +1524,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &248830819 stripped
 Transform:
@@ -1444,6 +1540,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 313694257
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -1504,7 +1605,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &260198215 stripped
 Transform:
@@ -1519,6 +1621,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1598417277}
     m_Modifications:
+    - target: {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d,
+        type: 3}
+      propertyPath: sceneId
+      value: 2470497299
+      objectReference: {fileID: 0}
     - target: {fileID: 1331033643468163819, guid: 576629821d816bd418febd6dc1e35c1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1579,7 +1686,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaveRoad (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
 --- !u!4 &278111372 stripped
 Transform:
@@ -1699,6 +1807,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 2213840284
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -1759,7 +1872,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &313437160 stripped
 Transform:
@@ -1798,7 +1912,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Profile: {fileID: 11400000, guid: a123fc0ac58cb774e8592c925f167e7c, type: 2}
   m_StaticLightingSkyUniqueID: 1
-  m_SkySettings: {fileID: 1756003779}
+  m_SkySettings: {fileID: 533106094}
   m_SkySettingsFromProfile: {fileID: -1658960478407648048, guid: a123fc0ac58cb774e8592c925f167e7c,
     type: 2}
 --- !u!4 &313761475
@@ -1822,6 +1936,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1598417277}
     m_Modifications:
+    - target: {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d,
+        type: 3}
+      propertyPath: sceneId
+      value: 2710125095
+      objectReference: {fileID: 0}
     - target: {fileID: 1331033643468163819, guid: 576629821d816bd418febd6dc1e35c1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1882,7 +2001,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaveRoad (11)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
 --- !u!4 &322333553 stripped
 Transform:
@@ -1897,6 +2017,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1419737603}
     m_Modifications:
+    - target: {fileID: -6339208387448377801, guid: 028155b0d51e4d54c92a4c3d4496d9d7,
+        type: 3}
+      propertyPath: sceneId
+      value: 3634416443
+      objectReference: {fileID: 0}
     - target: {fileID: 4627563434079176161, guid: 028155b0d51e4d54c92a4c3d4496d9d7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1957,7 +2082,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementC (4)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6339208387448377801, guid: 028155b0d51e4d54c92a4c3d4496d9d7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 028155b0d51e4d54c92a4c3d4496d9d7, type: 3}
 --- !u!4 &401430771 stripped
 Transform:
@@ -1972,6 +2098,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 126774464
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -2032,7 +2163,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &415728638 stripped
 Transform:
@@ -2047,6 +2179,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1598417277}
     m_Modifications:
+    - target: {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d,
+        type: 3}
+      propertyPath: sceneId
+      value: 3450385187
+      objectReference: {fileID: 0}
     - target: {fileID: 1331033643468163819, guid: 576629821d816bd418febd6dc1e35c1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2107,7 +2244,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaveRoad (22)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
 --- !u!4 &420860691 stripped
 Transform:
@@ -2122,6 +2260,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1419737603}
     m_Modifications:
+    - target: {fileID: -6398497241174905229, guid: da28396d5c0124246a351d4fcf1657c8,
+        type: 3}
+      propertyPath: sceneId
+      value: 1651029964
+      objectReference: {fileID: 0}
     - target: {fileID: 366976418200873103, guid: da28396d5c0124246a351d4fcf1657c8,
         type: 3}
       propertyPath: m_Name
@@ -2182,7 +2325,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6398497241174905229, guid: da28396d5c0124246a351d4fcf1657c8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: da28396d5c0124246a351d4fcf1657c8, type: 3}
 --- !u!4 &467643947 stripped
 Transform:
@@ -2197,6 +2341,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1419737603}
     m_Modifications:
+    - target: {fileID: -6339208387448377801, guid: 028155b0d51e4d54c92a4c3d4496d9d7,
+        type: 3}
+      propertyPath: sceneId
+      value: 4038023133
+      objectReference: {fileID: 0}
     - target: {fileID: 4627563434079176161, guid: 028155b0d51e4d54c92a4c3d4496d9d7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2257,7 +2406,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementC (3)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6339208387448377801, guid: 028155b0d51e4d54c92a4c3d4496d9d7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 028155b0d51e4d54c92a4c3d4496d9d7, type: 3}
 --- !u!4 &468423702 stripped
 Transform:
@@ -2332,7 +2482,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementI (14)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725,
+        type: 3}
+      propertyPath: sceneId
+      value: 1077137036
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dc176f87465078844a3e25937f30e725, type: 3}
 --- !u!4 &481934502 stripped
 Transform:
@@ -2347,6 +2503,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1419737603}
     m_Modifications:
+    - target: {fileID: -6339208387448377801, guid: 028155b0d51e4d54c92a4c3d4496d9d7,
+        type: 3}
+      propertyPath: sceneId
+      value: 59220232
+      objectReference: {fileID: 0}
     - target: {fileID: 4627563434079176161, guid: 028155b0d51e4d54c92a4c3d4496d9d7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2407,7 +2568,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementC (5)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6339208387448377801, guid: 028155b0d51e4d54c92a4c3d4496d9d7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 028155b0d51e4d54c92a4c3d4496d9d7, type: 3}
 --- !u!4 &508020900 stripped
 Transform:
@@ -2525,7 +2687,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementI (3)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725,
+        type: 3}
+      propertyPath: sceneId
+      value: 299209544
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dc176f87465078844a3e25937f30e725, type: 3}
 --- !u!4 &513418803 stripped
 Transform:
@@ -2540,6 +2708,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1598417277}
     m_Modifications:
+    - target: {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d,
+        type: 3}
+      propertyPath: sceneId
+      value: 4070748832
+      objectReference: {fileID: 0}
     - target: {fileID: 1331033643468163819, guid: 576629821d816bd418febd6dc1e35c1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2600,7 +2773,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaveRoad (20)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
 --- !u!4 &519124456 stripped
 Transform:
@@ -2675,7 +2849,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementI (12)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725,
+        type: 3}
+      propertyPath: sceneId
+      value: 3449393501
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dc176f87465078844a3e25937f30e725, type: 3}
 --- !u!4 &529660606 stripped
 Transform:
@@ -2683,6 +2863,107 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 529660605}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &533106094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59b6606ef2548734bb6d11b9d160bc7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  rotation:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 360
+  skyIntensityMode:
+    m_OverrideState: 0
+    m_Value: 0
+  exposure:
+    m_OverrideState: 0
+    m_Value: 10
+  multiplier:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+  upperHemisphereLuxValue:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+  upperHemisphereLuxColor:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0, z: 0}
+  desiredLuxValue:
+    m_OverrideState: 0
+    m_Value: 20000
+  updateMode:
+    m_OverrideState: 0
+    m_Value: 0
+  updatePeriod:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+  includeSunInBaking:
+    m_OverrideState: 0
+    m_Value: 0
+  hdriSky:
+    m_OverrideState: 0
+    m_Value: {fileID: 8900000, guid: 54a3a0570aebe8949bec4966f1376581, type: 3}
+  enableBackplate:
+    m_OverrideState: 0
+    m_Value: 0
+  backplateType:
+    m_OverrideState: 0
+    m_Value: 0
+  groundLevel:
+    m_OverrideState: 0
+    m_Value: 0
+  scale:
+    m_OverrideState: 0
+    m_Value: {x: 32, y: 32}
+  projectionDistance:
+    m_OverrideState: 0
+    m_Value: 16
+    min: 0.0000001
+  plateRotation:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 360
+  plateTexRotation:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 360
+  plateTexOffset:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0}
+  blendAmount:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 100
+  shadowTint:
+    m_OverrideState: 0
+    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  pointLightShadow:
+    m_OverrideState: 0
+    m_Value: 0
+  dirLightShadow:
+    m_OverrideState: 0
+    m_Value: 0
+  rectLightShadow:
+    m_OverrideState: 0
+    m_Value: 0
 --- !u!1001 &543024122
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2690,6 +2971,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1598417277}
     m_Modifications:
+    - target: {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d,
+        type: 3}
+      propertyPath: sceneId
+      value: 3844095827
+      objectReference: {fileID: 0}
     - target: {fileID: 1331033643468163819, guid: 576629821d816bd418febd6dc1e35c1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2750,7 +3036,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaveRoad (10)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
 --- !u!4 &543024123 stripped
 Transform:
@@ -2765,6 +3052,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1598417277}
     m_Modifications:
+    - target: {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d,
+        type: 3}
+      propertyPath: sceneId
+      value: 1792847529
+      objectReference: {fileID: 0}
     - target: {fileID: 1331033643468163819, guid: 576629821d816bd418febd6dc1e35c1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2825,7 +3117,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaveRoad (17)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
 --- !u!4 &554014246 stripped
 Transform:
@@ -2840,6 +3133,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1419737603}
     m_Modifications:
+    - target: {fileID: -6339208387448377801, guid: 028155b0d51e4d54c92a4c3d4496d9d7,
+        type: 3}
+      propertyPath: sceneId
+      value: 2327548231
+      objectReference: {fileID: 0}
     - target: {fileID: 4627563434079176161, guid: 028155b0d51e4d54c92a4c3d4496d9d7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2900,7 +3198,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementC (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6339208387448377801, guid: 028155b0d51e4d54c92a4c3d4496d9d7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 028155b0d51e4d54c92a4c3d4496d9d7, type: 3}
 --- !u!4 &556284584 stripped
 Transform:
@@ -2915,6 +3214,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 2586798202
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -2975,7 +3279,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &575929019 stripped
 Transform:
@@ -3038,6 +3343,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 1770966273
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -3098,7 +3408,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &589239682 stripped
 Transform:
@@ -3113,6 +3424,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 2590623297
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -3173,7 +3489,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &593004194 stripped
 Transform:
@@ -3188,6 +3505,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 1883554100
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -3248,7 +3570,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &599516905 stripped
 Transform:
@@ -3337,6 +3660,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 3978817293
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -3397,7 +3725,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &601110402 stripped
 Transform:
@@ -3472,7 +3801,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementI (17)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725,
+        type: 3}
+      propertyPath: sceneId
+      value: 2296040730
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dc176f87465078844a3e25937f30e725, type: 3}
 --- !u!4 &601114209 stripped
 Transform:
@@ -3582,6 +3917,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1598417277}
     m_Modifications:
+    - target: {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d,
+        type: 3}
+      propertyPath: sceneId
+      value: 3729261579
+      objectReference: {fileID: 0}
     - target: {fileID: 1331033643468163819, guid: 576629821d816bd418febd6dc1e35c1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3642,7 +3982,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaveRoad (8)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
 --- !u!4 &704351038 stripped
 Transform:
@@ -3657,6 +3998,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1598417277}
     m_Modifications:
+    - target: {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d,
+        type: 3}
+      propertyPath: sceneId
+      value: 2833535701
+      objectReference: {fileID: 0}
     - target: {fileID: 1331033643468163819, guid: 576629821d816bd418febd6dc1e35c1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3717,7 +4063,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaveRoad (12)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
 --- !u!4 &705949838 stripped
 Transform:
@@ -3792,7 +4139,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementI (16)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725,
+        type: 3}
+      propertyPath: sceneId
+      value: 2767387294
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dc176f87465078844a3e25937f30e725, type: 3}
 --- !u!4 &710640317 stripped
 Transform:
@@ -3807,6 +4160,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 3548854441
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -3867,7 +4225,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &728882562 stripped
 Transform:
@@ -3942,12 +4301,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2725325121303688744, guid: e045d2932add8034ba87e24f081c240f,
+        type: 3}
+      propertyPath: sceneId
+      value: 331070785
+      objectReference: {fileID: 0}
     - target: {fileID: 5541795257902809546, guid: e045d2932add8034ba87e24f081c240f,
         type: 3}
       propertyPath: m_Name
       value: 2MDoor (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2725325121303688744, guid: e045d2932add8034ba87e24f081c240f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e045d2932add8034ba87e24f081c240f, type: 3}
 --- !u!4 &735175482 stripped
 Transform:
@@ -3974,6 +4339,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 2473274629
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -4034,7 +4404,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &741542019 stripped
 Transform:
@@ -4049,6 +4420,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 167131123
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -4109,7 +4485,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &759165953 stripped
 Transform:
@@ -4124,6 +4501,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 1929432368
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -4184,7 +4566,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &798445041 stripped
 Transform:
@@ -4199,6 +4582,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 99967847
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -4259,7 +4647,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &846518287 stripped
 Transform:
@@ -4274,6 +4663,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1598417277}
     m_Modifications:
+    - target: {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d,
+        type: 3}
+      propertyPath: sceneId
+      value: 1081010649
+      objectReference: {fileID: 0}
     - target: {fileID: 1331033643468163819, guid: 576629821d816bd418febd6dc1e35c1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4334,7 +4728,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaveRoad (21)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
 --- !u!4 &861981387 stripped
 Transform:
@@ -4409,7 +4804,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementI (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725,
+        type: 3}
+      propertyPath: sceneId
+      value: 37248868
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dc176f87465078844a3e25937f30e725, type: 3}
 --- !u!4 &869734402 stripped
 Transform:
@@ -4458,6 +4859,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 1200430599
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -4518,7 +4924,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &969376584 stripped
 Transform:
@@ -4533,6 +4940,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 1958448147
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -4593,7 +5005,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &1007594564 stripped
 Transform:
@@ -4608,6 +5021,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 3510739376
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -4668,7 +5086,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &1017095250 stripped
 Transform:
@@ -4738,12 +5157,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2725325121303688744, guid: e045d2932add8034ba87e24f081c240f,
+        type: 3}
+      propertyPath: sceneId
+      value: 1456193382
+      objectReference: {fileID: 0}
     - target: {fileID: 5541795257902809546, guid: e045d2932add8034ba87e24f081c240f,
         type: 3}
       propertyPath: m_Name
       value: 2MDoor (3)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2725325121303688744, guid: e045d2932add8034ba87e24f081c240f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e045d2932add8034ba87e24f081c240f, type: 3}
 --- !u!4 &1020958517 stripped
 Transform:
@@ -4805,6 +5230,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1598417277}
     m_Modifications:
+    - target: {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d,
+        type: 3}
+      propertyPath: sceneId
+      value: 3407055840
+      objectReference: {fileID: 0}
     - target: {fileID: 1331033643468163819, guid: 576629821d816bd418febd6dc1e35c1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4865,7 +5295,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaveRoad (23)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
 --- !u!4 &1053090330 stripped
 Transform:
@@ -4940,7 +5371,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementI (5)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725,
+        type: 3}
+      propertyPath: sceneId
+      value: 4079624526
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dc176f87465078844a3e25937f30e725, type: 3}
 --- !u!4 &1086416381 stripped
 Transform:
@@ -4955,6 +5392,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 1910612618
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -5015,7 +5457,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &1088944861 stripped
 Transform:
@@ -5030,6 +5473,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1598417277}
     m_Modifications:
+    - target: {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d,
+        type: 3}
+      propertyPath: sceneId
+      value: 3372015652
+      objectReference: {fileID: 0}
     - target: {fileID: 1331033643468163819, guid: 576629821d816bd418febd6dc1e35c1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5090,7 +5538,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaveRoad (6)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
 --- !u!4 &1092878044 stripped
 Transform:
@@ -5105,6 +5554,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1419737603}
     m_Modifications:
+    - target: {fileID: -6398497241174905229, guid: da28396d5c0124246a351d4fcf1657c8,
+        type: 3}
+      propertyPath: sceneId
+      value: 1061039507
+      objectReference: {fileID: 0}
     - target: {fileID: 366976418200873103, guid: da28396d5c0124246a351d4fcf1657c8,
         type: 3}
       propertyPath: m_Name
@@ -5165,7 +5619,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6398497241174905229, guid: da28396d5c0124246a351d4fcf1657c8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: da28396d5c0124246a351d4fcf1657c8, type: 3}
 --- !u!4 &1124931085 stripped
 Transform:
@@ -5180,6 +5635,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1598417277}
     m_Modifications:
+    - target: {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d,
+        type: 3}
+      propertyPath: sceneId
+      value: 2520697214
+      objectReference: {fileID: 0}
     - target: {fileID: 1331033643468163819, guid: 576629821d816bd418febd6dc1e35c1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5240,7 +5700,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaveRoad (13)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
 --- !u!4 &1126088546 stripped
 Transform:
@@ -5255,6 +5716,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1598417277}
     m_Modifications:
+    - target: {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d,
+        type: 3}
+      propertyPath: sceneId
+      value: 3109013772
+      objectReference: {fileID: 0}
     - target: {fileID: 1331033643468163819, guid: 576629821d816bd418febd6dc1e35c1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5315,7 +5781,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaveRoad
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
 --- !u!4 &1127272011 stripped
 Transform:
@@ -5390,7 +5857,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementI (6)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725,
+        type: 3}
+      propertyPath: sceneId
+      value: 856200597
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dc176f87465078844a3e25937f30e725, type: 3}
 --- !u!4 &1152037251 stripped
 Transform:
@@ -5405,6 +5878,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1419737603}
     m_Modifications:
+    - target: {fileID: -6339208387448377801, guid: 028155b0d51e4d54c92a4c3d4496d9d7,
+        type: 3}
+      propertyPath: sceneId
+      value: 4039428200
+      objectReference: {fileID: 0}
     - target: {fileID: 4627563434079176161, guid: 028155b0d51e4d54c92a4c3d4496d9d7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5465,7 +5943,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementC (10)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6339208387448377801, guid: 028155b0d51e4d54c92a4c3d4496d9d7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 028155b0d51e4d54c92a4c3d4496d9d7, type: 3}
 --- !u!4 &1163495744 stripped
 Transform:
@@ -5480,6 +5959,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 3769386523
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -5540,7 +6024,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &1165804619 stripped
 Transform:
@@ -5555,6 +6040,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1419737603}
     m_Modifications:
+    - target: {fileID: -6339208387448377801, guid: 028155b0d51e4d54c92a4c3d4496d9d7,
+        type: 3}
+      propertyPath: sceneId
+      value: 3092675961
+      objectReference: {fileID: 0}
     - target: {fileID: 4627563434079176161, guid: 028155b0d51e4d54c92a4c3d4496d9d7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5615,7 +6105,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementC (7)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6339208387448377801, guid: 028155b0d51e4d54c92a4c3d4496d9d7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 028155b0d51e4d54c92a4c3d4496d9d7, type: 3}
 --- !u!4 &1188731754 stripped
 Transform:
@@ -5630,6 +6121,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1419737603}
     m_Modifications:
+    - target: {fileID: -6398497241174905229, guid: da28396d5c0124246a351d4fcf1657c8,
+        type: 3}
+      propertyPath: sceneId
+      value: 4288256296
+      objectReference: {fileID: 0}
     - target: {fileID: 366976418200873103, guid: da28396d5c0124246a351d4fcf1657c8,
         type: 3}
       propertyPath: m_Name
@@ -5690,7 +6186,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6398497241174905229, guid: da28396d5c0124246a351d4fcf1657c8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: da28396d5c0124246a351d4fcf1657c8, type: 3}
 --- !u!4 &1202827100 stripped
 Transform:
@@ -5765,7 +6262,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementI (11)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725,
+        type: 3}
+      propertyPath: sceneId
+      value: 1655502026
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dc176f87465078844a3e25937f30e725, type: 3}
 --- !u!4 &1228363614 stripped
 Transform:
@@ -5780,6 +6283,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 933484438
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -5840,7 +6348,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &1246886863 stripped
 Transform:
@@ -5855,6 +6364,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1419737603}
     m_Modifications:
+    - target: {fileID: -6398497241174905229, guid: da28396d5c0124246a351d4fcf1657c8,
+        type: 3}
+      propertyPath: sceneId
+      value: 2492646564
+      objectReference: {fileID: 0}
     - target: {fileID: 366976418200873103, guid: da28396d5c0124246a351d4fcf1657c8,
         type: 3}
       propertyPath: m_Name
@@ -5915,7 +6429,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6398497241174905229, guid: da28396d5c0124246a351d4fcf1657c8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: da28396d5c0124246a351d4fcf1657c8, type: 3}
 --- !u!4 &1284764289 stripped
 Transform:
@@ -5930,6 +6445,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 88594092
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -5990,7 +6510,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &1285353457 stripped
 Transform:
@@ -6208,6 +6729,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1598417277}
     m_Modifications:
+    - target: {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d,
+        type: 3}
+      propertyPath: sceneId
+      value: 1183937213
+      objectReference: {fileID: 0}
     - target: {fileID: 1331033643468163819, guid: 576629821d816bd418febd6dc1e35c1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6268,7 +6794,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaveRoad (5)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
 --- !u!4 &1307734387 stripped
 Transform:
@@ -6378,6 +6905,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -7974696235496861133, guid: 5afbd5dffd10dbb44b0a89504ec5d97a,
+        type: 3}
+      propertyPath: sceneId
+      value: 2662966390
+      objectReference: {fileID: 0}
     - target: {fileID: 635603644394380116, guid: 5afbd5dffd10dbb44b0a89504ec5d97a,
         type: 3}
       propertyPath: m_Name
@@ -6438,7 +6970,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -7974696235496861133, guid: 5afbd5dffd10dbb44b0a89504ec5d97a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5afbd5dffd10dbb44b0a89504ec5d97a, type: 3}
 --- !u!114 &1361007854 stripped
 MonoBehaviour:
@@ -6525,7 +7058,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementI (9)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725,
+        type: 3}
+      propertyPath: sceneId
+      value: 351472324
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dc176f87465078844a3e25937f30e725, type: 3}
 --- !u!4 &1388918327 stripped
 Transform:
@@ -6600,7 +7139,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementI (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725,
+        type: 3}
+      propertyPath: sceneId
+      value: 2873713842
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dc176f87465078844a3e25937f30e725, type: 3}
 --- !u!4 &1402779564 stripped
 Transform:
@@ -6697,6 +7242,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementFull (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4654919181215084880, guid: 61fb4ad27d874ae41a8ff88f04b628d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 941104330
+      objectReference: {fileID: 0}
     - target: {fileID: 6892218669108891148, guid: 61fb4ad27d874ae41a8ff88f04b628d6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6752,7 +7302,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4654919181215084880, guid: 61fb4ad27d874ae41a8ff88f04b628d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 61fb4ad27d874ae41a8ff88f04b628d6, type: 3}
 --- !u!4 &1438595045 stripped
 Transform:
@@ -6767,6 +7318,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1419737603}
     m_Modifications:
+    - target: {fileID: -6398497241174905229, guid: da28396d5c0124246a351d4fcf1657c8,
+        type: 3}
+      propertyPath: sceneId
+      value: 11119187
+      objectReference: {fileID: 0}
     - target: {fileID: 366976418200873103, guid: da28396d5c0124246a351d4fcf1657c8,
         type: 3}
       propertyPath: m_Name
@@ -6827,7 +7383,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6398497241174905229, guid: da28396d5c0124246a351d4fcf1657c8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: da28396d5c0124246a351d4fcf1657c8, type: 3}
 --- !u!4 &1438605717 stripped
 Transform:
@@ -6842,6 +7399,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 712929732
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -6902,7 +7464,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &1450286407 stripped
 Transform:
@@ -7077,6 +7640,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 3861928817
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -7137,7 +7705,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &1486617031 stripped
 Transform:
@@ -7152,6 +7721,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -740646610462872228, guid: 3a18404a235d1504f9cfe412f6869151,
+        type: 3}
+      propertyPath: sceneId
+      value: 758234037
+      objectReference: {fileID: 0}
     - target: {fileID: 441312095823243116, guid: 3a18404a235d1504f9cfe412f6869151,
         type: 3}
       propertyPath: m_Name
@@ -7212,7 +7786,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -740646610462872228, guid: 3a18404a235d1504f9cfe412f6869151, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3a18404a235d1504f9cfe412f6869151, type: 3}
 --- !u!4 &1519503832 stripped
 Transform:
@@ -7227,6 +7802,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 102702530
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -7287,7 +7867,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &1534270140 stripped
 Transform:
@@ -7302,6 +7883,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1598417277}
     m_Modifications:
+    - target: {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d,
+        type: 3}
+      propertyPath: sceneId
+      value: 3125835889
+      objectReference: {fileID: 0}
     - target: {fileID: 1331033643468163819, guid: 576629821d816bd418febd6dc1e35c1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7362,7 +7948,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaveRoad (24)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
 --- !u!4 &1548165999 stripped
 Transform:
@@ -7381,6 +7968,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PavementFull (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4654919181215084880, guid: 61fb4ad27d874ae41a8ff88f04b628d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 772122684
       objectReference: {fileID: 0}
     - target: {fileID: 6892218669108891148, guid: 61fb4ad27d874ae41a8ff88f04b628d6,
         type: 3}
@@ -7437,7 +8029,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4654919181215084880, guid: 61fb4ad27d874ae41a8ff88f04b628d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 61fb4ad27d874ae41a8ff88f04b628d6, type: 3}
 --- !u!4 &1571846078 stripped
 Transform:
@@ -7640,7 +8233,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementI (8)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725,
+        type: 3}
+      propertyPath: sceneId
+      value: 670666747
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dc176f87465078844a3e25937f30e725, type: 3}
 --- !u!4 &1618762027 stripped
 Transform:
@@ -7659,6 +8258,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PavementFull (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4654919181215084880, guid: 61fb4ad27d874ae41a8ff88f04b628d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 1813485951
       objectReference: {fileID: 0}
     - target: {fileID: 6892218669108891148, guid: 61fb4ad27d874ae41a8ff88f04b628d6,
         type: 3}
@@ -7715,7 +8319,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4654919181215084880, guid: 61fb4ad27d874ae41a8ff88f04b628d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 61fb4ad27d874ae41a8ff88f04b628d6, type: 3}
 --- !u!4 &1621569830 stripped
 Transform:
@@ -7730,6 +8335,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1419737603}
     m_Modifications:
+    - target: {fileID: -6339208387448377801, guid: 028155b0d51e4d54c92a4c3d4496d9d7,
+        type: 3}
+      propertyPath: sceneId
+      value: 3089665963
+      objectReference: {fileID: 0}
     - target: {fileID: 4627563434079176161, guid: 028155b0d51e4d54c92a4c3d4496d9d7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7790,7 +8400,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementC (8)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6339208387448377801, guid: 028155b0d51e4d54c92a4c3d4496d9d7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 028155b0d51e4d54c92a4c3d4496d9d7, type: 3}
 --- !u!4 &1655348581 stripped
 Transform:
@@ -7865,7 +8476,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementI (7)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725,
+        type: 3}
+      propertyPath: sceneId
+      value: 4047285057
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dc176f87465078844a3e25937f30e725, type: 3}
 --- !u!4 &1656099918 stripped
 Transform:
@@ -7880,6 +8497,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1598417277}
     m_Modifications:
+    - target: {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d,
+        type: 3}
+      propertyPath: sceneId
+      value: 1686759027
+      objectReference: {fileID: 0}
     - target: {fileID: 1331033643468163819, guid: 576629821d816bd418febd6dc1e35c1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7940,7 +8562,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaveRoad (7)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
 --- !u!4 &1700938924 stripped
 Transform:
@@ -7955,6 +8578,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1419737603}
     m_Modifications:
+    - target: {fileID: -6398497241174905229, guid: da28396d5c0124246a351d4fcf1657c8,
+        type: 3}
+      propertyPath: sceneId
+      value: 3623023016
+      objectReference: {fileID: 0}
     - target: {fileID: 366976418200873103, guid: da28396d5c0124246a351d4fcf1657c8,
         type: 3}
       propertyPath: m_Name
@@ -8015,7 +8643,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6398497241174905229, guid: da28396d5c0124246a351d4fcf1657c8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: da28396d5c0124246a351d4fcf1657c8, type: 3}
 --- !u!4 &1715717144 stripped
 Transform:
@@ -8030,6 +8659,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1598417277}
     m_Modifications:
+    - target: {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d,
+        type: 3}
+      propertyPath: sceneId
+      value: 3019600522
+      objectReference: {fileID: 0}
     - target: {fileID: 1331033643468163819, guid: 576629821d816bd418febd6dc1e35c1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8090,7 +8724,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaveRoad (19)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
 --- !u!4 &1745969207 stripped
 Transform:
@@ -8098,107 +8733,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1745969206}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1756003779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59b6606ef2548734bb6d11b9d160bc7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  active: 1
-  m_AdvancedMode: 0
-  rotation:
-    m_OverrideState: 0
-    m_Value: 0
-    min: 0
-    max: 360
-  skyIntensityMode:
-    m_OverrideState: 0
-    m_Value: 0
-  exposure:
-    m_OverrideState: 0
-    m_Value: 10
-  multiplier:
-    m_OverrideState: 0
-    m_Value: 1
-    min: 0
-  upperHemisphereLuxValue:
-    m_OverrideState: 0
-    m_Value: 1
-    min: 0
-  upperHemisphereLuxColor:
-    m_OverrideState: 0
-    m_Value: {x: 0, y: 0, z: 0}
-  desiredLuxValue:
-    m_OverrideState: 0
-    m_Value: 20000
-  updateMode:
-    m_OverrideState: 0
-    m_Value: 0
-  updatePeriod:
-    m_OverrideState: 0
-    m_Value: 0
-    min: 0
-  includeSunInBaking:
-    m_OverrideState: 0
-    m_Value: 0
-  hdriSky:
-    m_OverrideState: 0
-    m_Value: {fileID: 8900000, guid: 54a3a0570aebe8949bec4966f1376581, type: 3}
-  enableBackplate:
-    m_OverrideState: 0
-    m_Value: 0
-  backplateType:
-    m_OverrideState: 0
-    m_Value: 0
-  groundLevel:
-    m_OverrideState: 0
-    m_Value: 0
-  scale:
-    m_OverrideState: 0
-    m_Value: {x: 32, y: 32}
-  projectionDistance:
-    m_OverrideState: 0
-    m_Value: 16
-    min: 0.0000001
-  plateRotation:
-    m_OverrideState: 0
-    m_Value: 0
-    min: 0
-    max: 360
-  plateTexRotation:
-    m_OverrideState: 0
-    m_Value: 0
-    min: 0
-    max: 360
-  plateTexOffset:
-    m_OverrideState: 0
-    m_Value: {x: 0, y: 0}
-  blendAmount:
-    m_OverrideState: 0
-    m_Value: 0
-    min: 0
-    max: 100
-  shadowTint:
-    m_OverrideState: 0
-    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    hdr: 0
-    showAlpha: 1
-    showEyeDropper: 1
-  pointLightShadow:
-    m_OverrideState: 0
-    m_Value: 0
-  dirLightShadow:
-    m_OverrideState: 0
-    m_Value: 0
-  rectLightShadow:
-    m_OverrideState: 0
-    m_Value: 0
 --- !u!1001 &1784376832
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8206,6 +8740,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -740646610462872228, guid: 3a18404a235d1504f9cfe412f6869151,
+        type: 3}
+      propertyPath: sceneId
+      value: 2038548729
+      objectReference: {fileID: 0}
     - target: {fileID: 441312095823243116, guid: 3a18404a235d1504f9cfe412f6869151,
         type: 3}
       propertyPath: m_Name
@@ -8266,7 +8805,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -740646610462872228, guid: 3a18404a235d1504f9cfe412f6869151, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3a18404a235d1504f9cfe412f6869151, type: 3}
 --- !u!4 &1784376833 stripped
 Transform:
@@ -8281,6 +8821,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1419737603}
     m_Modifications:
+    - target: {fileID: -6398497241174905229, guid: da28396d5c0124246a351d4fcf1657c8,
+        type: 3}
+      propertyPath: sceneId
+      value: 1127314371
+      objectReference: {fileID: 0}
     - target: {fileID: 366976418200873103, guid: da28396d5c0124246a351d4fcf1657c8,
         type: 3}
       propertyPath: m_Name
@@ -8341,7 +8886,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6398497241174905229, guid: da28396d5c0124246a351d4fcf1657c8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: da28396d5c0124246a351d4fcf1657c8, type: 3}
 --- !u!4 &1810522825 stripped
 Transform:
@@ -8356,6 +8902,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 4276646889
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -8416,7 +8967,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &1865029577 stripped
 Transform:
@@ -8431,6 +8983,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 3385111656
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -8491,7 +9048,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &1866665860 stripped
 Transform:
@@ -8506,6 +9064,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -740646610462872228, guid: 3a18404a235d1504f9cfe412f6869151,
+        type: 3}
+      propertyPath: sceneId
+      value: 1405388004
+      objectReference: {fileID: 0}
     - target: {fileID: 441312095823243116, guid: 3a18404a235d1504f9cfe412f6869151,
         type: 3}
       propertyPath: m_Name
@@ -8566,7 +9129,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -740646610462872228, guid: 3a18404a235d1504f9cfe412f6869151, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3a18404a235d1504f9cfe412f6869151, type: 3}
 --- !u!4 &1871842212 stripped
 Transform:
@@ -8581,6 +9145,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1419737603}
     m_Modifications:
+    - target: {fileID: -6398497241174905229, guid: da28396d5c0124246a351d4fcf1657c8,
+        type: 3}
+      propertyPath: sceneId
+      value: 1744030380
+      objectReference: {fileID: 0}
     - target: {fileID: 366976418200873103, guid: da28396d5c0124246a351d4fcf1657c8,
         type: 3}
       propertyPath: m_Name
@@ -8641,7 +9210,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6398497241174905229, guid: da28396d5c0124246a351d4fcf1657c8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: da28396d5c0124246a351d4fcf1657c8, type: 3}
 --- !u!4 &1896722147 stripped
 Transform:
@@ -8716,7 +9286,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementI (15)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725,
+        type: 3}
+      propertyPath: sceneId
+      value: 4115051291
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dc176f87465078844a3e25937f30e725, type: 3}
 --- !u!4 &1908883354 stripped
 Transform:
@@ -8731,6 +9307,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1419737603}
     m_Modifications:
+    - target: {fileID: -6398497241174905229, guid: da28396d5c0124246a351d4fcf1657c8,
+        type: 3}
+      propertyPath: sceneId
+      value: 3876932147
+      objectReference: {fileID: 0}
     - target: {fileID: 366976418200873103, guid: da28396d5c0124246a351d4fcf1657c8,
         type: 3}
       propertyPath: m_Name
@@ -8791,7 +9372,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6398497241174905229, guid: da28396d5c0124246a351d4fcf1657c8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: da28396d5c0124246a351d4fcf1657c8, type: 3}
 --- !u!4 &1923371245 stripped
 Transform:
@@ -8806,6 +9388,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1598417277}
     m_Modifications:
+    - target: {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d,
+        type: 3}
+      propertyPath: sceneId
+      value: 1977127754
+      objectReference: {fileID: 0}
     - target: {fileID: 1331033643468163819, guid: 576629821d816bd418febd6dc1e35c1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8866,7 +9453,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaveRoad (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
 --- !u!4 &1925132140 stripped
 Transform:
@@ -8881,6 +9469,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 582745891
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -8941,7 +9534,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &1942954627 stripped
 Transform:
@@ -8956,6 +9550,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1598417277}
     m_Modifications:
+    - target: {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d,
+        type: 3}
+      propertyPath: sceneId
+      value: 626476665
+      objectReference: {fileID: 0}
     - target: {fileID: 1331033643468163819, guid: 576629821d816bd418febd6dc1e35c1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9016,7 +9615,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaveRoad (3)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
 --- !u!4 &1945287548 stripped
 Transform:
@@ -9091,7 +9691,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementI (10)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725,
+        type: 3}
+      propertyPath: sceneId
+      value: 1150202723
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dc176f87465078844a3e25937f30e725, type: 3}
 --- !u!4 &1980403988 stripped
 Transform:
@@ -9106,6 +9712,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 830702615
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -9166,7 +9777,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &1988569603 stripped
 Transform:
@@ -9384,6 +9996,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1598417277}
     m_Modifications:
+    - target: {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d,
+        type: 3}
+      propertyPath: sceneId
+      value: 2316563091
+      objectReference: {fileID: 0}
     - target: {fileID: 1331033643468163819, guid: 576629821d816bd418febd6dc1e35c1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9444,7 +10061,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaveRoad (16)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3129812400317775055, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 576629821d816bd418febd6dc1e35c1d, type: 3}
 --- !u!4 &2081430985 stripped
 Transform:
@@ -9459,6 +10077,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1419737603}
     m_Modifications:
+    - target: {fileID: -6339208387448377801, guid: 028155b0d51e4d54c92a4c3d4496d9d7,
+        type: 3}
+      propertyPath: sceneId
+      value: 596464200
+      objectReference: {fileID: 0}
     - target: {fileID: 4627563434079176161, guid: 028155b0d51e4d54c92a4c3d4496d9d7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9519,7 +10142,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementC (9)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6339208387448377801, guid: 028155b0d51e4d54c92a4c3d4496d9d7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 028155b0d51e4d54c92a4c3d4496d9d7, type: 3}
 --- !u!4 &2088392782 stripped
 Transform:
@@ -9589,12 +10213,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2725325121303688744, guid: e045d2932add8034ba87e24f081c240f,
+        type: 3}
+      propertyPath: sceneId
+      value: 388304285
+      objectReference: {fileID: 0}
     - target: {fileID: 5541795257902809546, guid: e045d2932add8034ba87e24f081c240f,
         type: 3}
       propertyPath: m_Name
       value: 2MDoor (4)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2725325121303688744, guid: e045d2932add8034ba87e24f081c240f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e045d2932add8034ba87e24f081c240f, type: 3}
 --- !u!4 &2111625431 stripped
 Transform:
@@ -9621,6 +10251,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1419737603}
     m_Modifications:
+    - target: {fileID: -6398497241174905229, guid: da28396d5c0124246a351d4fcf1657c8,
+        type: 3}
+      propertyPath: sceneId
+      value: 3783740392
+      objectReference: {fileID: 0}
     - target: {fileID: 366976418200873103, guid: da28396d5c0124246a351d4fcf1657c8,
         type: 3}
       propertyPath: m_Name
@@ -9681,7 +10316,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6398497241174905229, guid: da28396d5c0124246a351d4fcf1657c8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: da28396d5c0124246a351d4fcf1657c8, type: 3}
 --- !u!4 &2112310529 stripped
 Transform:
@@ -9696,6 +10332,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1419737603}
     m_Modifications:
+    - target: {fileID: -6339208387448377801, guid: 028155b0d51e4d54c92a4c3d4496d9d7,
+        type: 3}
+      propertyPath: sceneId
+      value: 1177066261
+      objectReference: {fileID: 0}
     - target: {fileID: 4627563434079176161, guid: 028155b0d51e4d54c92a4c3d4496d9d7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9756,7 +10397,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementC (11)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6339208387448377801, guid: 028155b0d51e4d54c92a4c3d4496d9d7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 028155b0d51e4d54c92a4c3d4496d9d7, type: 3}
 --- !u!4 &2118404256 stripped
 Transform:
@@ -9831,7 +10473,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementI (4)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725,
+        type: 3}
+      propertyPath: sceneId
+      value: 2457344254
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dc176f87465078844a3e25937f30e725, type: 3}
 --- !u!4 &2137969916 stripped
 Transform:
@@ -9846,6 +10494,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1419737603}
     m_Modifications:
+    - target: {fileID: -6398497241174905229, guid: da28396d5c0124246a351d4fcf1657c8,
+        type: 3}
+      propertyPath: sceneId
+      value: 1410030858
+      objectReference: {fileID: 0}
     - target: {fileID: 366976418200873103, guid: da28396d5c0124246a351d4fcf1657c8,
         type: 3}
       propertyPath: m_Name
@@ -9906,7 +10559,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6398497241174905229, guid: da28396d5c0124246a351d4fcf1657c8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: da28396d5c0124246a351d4fcf1657c8, type: 3}
 --- !u!4 &2141352349 stripped
 Transform:
@@ -9921,6 +10575,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1578251885}
     m_Modifications:
+    - target: {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 3346841498
+      objectReference: {fileID: 0}
     - target: {fileID: 7011259890836379703, guid: d735021766e1e5141a931ad5341166d6,
         type: 3}
       propertyPath: m_Name
@@ -9981,7 +10640,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6451167946937212924, guid: d735021766e1e5141a931ad5341166d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d735021766e1e5141a931ad5341166d6, type: 3}
 --- !u!4 &2152610199660483288 stripped
 Transform:
@@ -10101,6 +10761,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementFull
       objectReference: {fileID: 0}
+    - target: {fileID: 4654919181215084880, guid: 61fb4ad27d874ae41a8ff88f04b628d6,
+        type: 3}
+      propertyPath: sceneId
+      value: 2081260212
+      objectReference: {fileID: 0}
     - target: {fileID: 6892218669108891148, guid: 61fb4ad27d874ae41a8ff88f04b628d6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10156,7 +10821,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4654919181215084880, guid: 61fb4ad27d874ae41a8ff88f04b628d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 61fb4ad27d874ae41a8ff88f04b628d6, type: 3}
 --- !u!4 &4635837609125890419 stripped
 Transform:
@@ -10243,7 +10909,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementI
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725,
+        type: 3}
+      propertyPath: sceneId
+      value: 2468751270
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2223280131791338259, guid: dc176f87465078844a3e25937f30e725, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dc176f87465078844a3e25937f30e725, type: 3}
 --- !u!4 &6836363093017731289 stripped
 Transform:
@@ -10407,12 +11079,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2725325121303688744, guid: e045d2932add8034ba87e24f081c240f,
+        type: 3}
+      propertyPath: sceneId
+      value: 1625015716
+      objectReference: {fileID: 0}
     - target: {fileID: 5541795257902809546, guid: e045d2932add8034ba87e24f081c240f,
         type: 3}
       propertyPath: m_Name
       value: 2MDoor
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2725325121303688744, guid: e045d2932add8034ba87e24f081c240f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e045d2932add8034ba87e24f081c240f, type: 3}
 --- !u!4 &7586378779097683543 stripped
 Transform:
@@ -10439,6 +11117,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1419737603}
     m_Modifications:
+    - target: {fileID: -6398497241174905229, guid: da28396d5c0124246a351d4fcf1657c8,
+        type: 3}
+      propertyPath: sceneId
+      value: 4261966614
+      objectReference: {fileID: 0}
     - target: {fileID: 366976418200873103, guid: da28396d5c0124246a351d4fcf1657c8,
         type: 3}
       propertyPath: m_Name
@@ -10499,7 +11182,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6398497241174905229, guid: da28396d5c0124246a351d4fcf1657c8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: da28396d5c0124246a351d4fcf1657c8, type: 3}
 --- !u!4 &9035036754946632111 stripped
 Transform:
@@ -10514,6 +11198,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1419737603}
     m_Modifications:
+    - target: {fileID: -6339208387448377801, guid: 028155b0d51e4d54c92a4c3d4496d9d7,
+        type: 3}
+      propertyPath: sceneId
+      value: 77870062
+      objectReference: {fileID: 0}
     - target: {fileID: 4627563434079176161, guid: 028155b0d51e4d54c92a4c3d4496d9d7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10574,5 +11263,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PavementC
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6339208387448377801, guid: 028155b0d51e4d54c92a4c3d4496d9d7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 028155b0d51e4d54c92a4c3d4496d9d7, type: 3}
